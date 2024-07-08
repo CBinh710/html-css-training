@@ -1,3 +1,4 @@
+
 # Should we use tables in HTML? Why?
 ## We should use tables in HTML incase
 Tabular Data Presentation: Use tables when you need to show data in a structured grid format with rows and columns.
