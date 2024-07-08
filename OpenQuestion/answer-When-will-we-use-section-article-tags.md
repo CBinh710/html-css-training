@@ -1,4 +1,3 @@
-
 1. **`<section>` Tag**:
    - The `<section>` tag is used to group related content thematically within a document.
    - It represents a standalone section of content that has its own heading or topic.
