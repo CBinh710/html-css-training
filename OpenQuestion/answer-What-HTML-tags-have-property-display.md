@@ -1,3 +1,4 @@
+
 In HTML and CSS, different tags have different default display properties:
 
 1. **Block-Level Elements**:
