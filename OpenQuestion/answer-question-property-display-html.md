@@ -17,4 +17,4 @@ In HTML and CSS, different tags have different default display properties:
    - They also respect top and bottom margins/paddings.
    - Examples include `<button>`, `<label>`, and sometimes `<img>`.
    - Allows setting width, height, margins, and paddings.
-   ![property display](image1.png)
+   ![property display](property-display.png)
