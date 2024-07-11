@@ -1,5 +1,5 @@
-Adding a Google Font to your CSS involves a few straightforward steps. Google Fonts provides a wide range of free fonts that you can easily integrate into your web projects. Here’s how you can do it:
 
+# How to add a google font to the CSS?
 ### Steps to Add Google Font to CSS
 
 1. **Find and Select a Google Font:**
