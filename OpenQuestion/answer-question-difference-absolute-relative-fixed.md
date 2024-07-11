@@ -1,4 +1,3 @@
-
 # What is the difference between position: absolute, relative, fixed?
 
 1. **`position: static`** (Default):
