@@ -1,4 +1,3 @@
-
 # Should we use sprite-css? Why?
 Using CSS sprites can be a powerful technique for optimizing web performance and improving the efficiency of image loading. Here’s a detailed look at why and how to use CSS sprites:
 
