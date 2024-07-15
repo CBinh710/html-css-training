@@ -1,4 +1,4 @@
-# What is the purpose of the mega tag?
+# What is the purpose of the meta tag?
 The `<meta>` tag in HTML serves the purpose of providing metadata about the HTML document. Metadata is essentially data about data, and in the context of HTML, `<meta>` tags provide information that helps browsers and search engines understand and process the document in various ways. Here are some common uses of the `<meta>` tag:
 
 1. **Character Encoding**: `<meta charset="UTF-8">` specifies the character encoding for the HTML document. This ensures that the browser knows how to interpret and display the characters correctly.
