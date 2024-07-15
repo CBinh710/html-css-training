@@ -15,4 +15,6 @@ The `<meta>` tag in HTML serves the purpose of providing metadata about the HTML
 
 7. **Refresh and Redirect**: `<meta http-equiv="refresh" content="30;url=http://example.com/">` can automatically refresh or redirect a page after a certain amount of time.
 
+8. **To enhance the appearance of links**: when shared on social media platforms, you can use Open Graph Protocol (OGP) meta tags. These tags provide metadata for titles, images, descriptions, and other elements that social media platforms use to create rich link previews.
+
 These `<meta>` tags are placed within the `<head>` section of an HTML document and do not directly affect the visual content of the page. Instead, they provide essential information to browsers, search engines, and other web services that process the HTML document. This metadata helps improve accessibility, SEO (Search Engine Optimization), and user experience across various devices.
