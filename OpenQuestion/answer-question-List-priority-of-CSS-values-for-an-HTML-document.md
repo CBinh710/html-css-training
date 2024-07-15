@@ -1,19 +1,18 @@
 # List priority of CSS values for an HTML document
-In CSS, the priority of styles determines which rules are applied when multiple rules conflict. This priority is determined by the cascade, specificity, and source order. Here's the list of CSS values in order of their priority:
+In CSS, the priority of styles determines which rules are applied when multiple rules conflict. This priority is determined by the cascade, specificity, and source order. Here's the list of CSS values in order of their priority And number 1 will overwrite number 2 and so on:
 
-### 1. **Inline Styles**
-- Styles applied directly to an HTML element using the `style` attribute have the highest priority.
-```html
-<div style="color: red;">This text will be red.</div>
-```
-
-### 2. **!important Declarations**
+### 1. **!important Declarations**
 - The `!important` declaration overrides any other declarations (except inline styles with `!important`).
 ```css
 /* This will override any other conflicting style declarations */
 p {
   color: blue !important;
 }
+```
+### 2. **Inline Styles**
+- Styles applied directly to an HTML element using the `style` attribute have the highest priority.
+```html
+<div style="color: red;">This text will be red.</div>
 ```
 
 ### 3. **ID Selectors**
