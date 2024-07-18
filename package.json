@@ -11,7 +11,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "parcel": "^1.12.5",
+    "parcel": "^2.0.0",
     "posthtml-include": "^2.0.1"
   },
   "dependencies": {
