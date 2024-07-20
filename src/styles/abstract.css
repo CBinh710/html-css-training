@@ -2,7 +2,7 @@
     font-family: 'Sofia Pro Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Sofia Pro Regular'), url('/src/assets/font/sofia-pro-webfont/Sofia\ Pro\ Regular\ Italic\ Az.woff') format('woff');
+    src: local('Sofia Pro Regular'), url('/src/assets/font/sofia-pro-webfont/Sofia\ Pro\ Regular\ Az.woff') format('woff');
     }
 @font-face {
     font-family: 'Sofia Pro Black';
