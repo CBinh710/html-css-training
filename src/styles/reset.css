@@ -9,3 +9,9 @@ button{
     border: #F54748;
     padding: 10px;
 }
+
+input[type="text"]{
+    font-family:'Sofia Pro Regular';
+    font-size: 18px;
+    border: 0;
+}
