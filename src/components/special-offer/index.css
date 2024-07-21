@@ -1,3 +1,8 @@
+.food-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
 .special-offer-header{
     display: flex;
     font-family:'Sofia Pro Bold';
@@ -15,3 +20,78 @@
     margin-left: 250px;
     margin-right: 250px;
 }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    background: linear-gradient(to top, #f8c6c6,#ebe8e7, #FFF,#FFF);
+    width: 310px;
+    height: 516px;
+    border-radius: 20px;
+    margin-bottom: 22.5px;
+    position: relative;
+    align-items: center;
+}
+.card .card-1{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    z-index: 2;
+    background: linear-gradient(to bottom,#FCAE5A,#FFF, #FFF);
+}
+.card .card-2{
+    width: 198px;
+    height: 198px;
+    border-radius: 50%;
+    z-index: 3;
+    border: 10px solid #FFF;
+    position: absolute;
+    top: 15px;
+}
+.card .card-3{
+    width: 60px;
+    height: 60px;
+    background: #FFB800;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    border: 3px solid #FFFF;
+    top:190px;
+    left: 180px;
+    text-align: center;
+}
+
+.card .card-3 p{
+    font-family:'Sofia Pro Regular';
+    color: #FFF;
+    font-size: 18px;
+}
+
+.card-4{
+    width: 156px;
+    height: 38px;
+    margin-top: 20px;
+}
+
+.card-header{
+    font-family: 'Sofia Pro Semi Bold';
+    font-size: 24px;
+    text-align: center;
+    color: #F54748;
+}
+
+.card-content{
+    font-family: 'Sofia Pro Regular';
+    font-size: 16px;
+    width: 243px;
+    text-align: center;
+}
+
+.card-5 button{
+    position: absolute;
+    top: 495px;
+    left:70px
+}
+
+
