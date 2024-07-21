@@ -1,0 +1,17 @@
+.special-offer-header{
+    display: flex;
+    font-family:'Sofia Pro Bold';
+    font-size: 48px;
+    justify-content: center;
+}
+.special-offer-content{
+    display: flex;
+    justify-content: center;
+    font-family: 'Sofia Pro Regular';
+    font-size: 18px;
+    text-align: center;
+    color: #191919;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
