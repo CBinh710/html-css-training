@@ -1,0 +1,17 @@
+{
+  "name": "html-css-training",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "posthtml-include": "^2.0.1"
+  },
+  "dependencies": {
+    "@parcel/source-map": "^2.1.1"
+  }
+}
