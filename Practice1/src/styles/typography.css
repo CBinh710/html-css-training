@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Sofia Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sofia Pro Regular'), url('/src/assets/font/sofia/Sofia-Pro-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Sofia Pro Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sofia Pro Black'), url('/src/assets/font/sofia/Sofia-Pro-Black.woff') format('woff');
+}
+@font-face {
+    font-family: 'Sofia Pro Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sofia Pro Medium'), url('/src/assets/font/sofia/Sofia-Pro-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Sofia Pro Semi Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sofia Pro Semi Bold'), url('/src/assets/font/sofia/Sofia-Pro-Semi-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Sofia Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sofia Pro Bold'), url('/src/assets/font/sofia/Sofia-Pro-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Poppins Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Poppins Medium'), url('/src/assets/font/poppins/Poppins-Medium.ttf') format('woff');
+}
+@font-face {
+    font-family: 'Inter Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Inter Regular'), url('/src/assets/font/inter/Inter-Regular.ttf') format('woff');
+}
