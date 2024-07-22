@@ -1,0 +1,12 @@
+@import url(/src/components/header/index.css);
+@import url(/src/components/footer/index.css);
+@import url(/src/styles/abstract.css);
+@import url(/src/styles/reset.css);
+@import url(/src/components/introduction/index.css);
+@import url(/src/components/special-offer/index.css);
+@import url(/src/components/card/index.css);
+body{
+    margin-left: 70px;
+    margin-right: 70px ;
+    margin-top: 32px;
+}
