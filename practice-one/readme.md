@@ -1,50 +1,49 @@
+# Practice One: Food Hut Design
 
+## Overview
 
-# Practice one Food hurt design
-
-## OVERVIEW
-
-- This is the document provided required for React practice two
+- This document is for React Practice Two.
 - [Design](https://www.figma.com/design/Q0oRUMv9ESYXfsIZjJXJn8/Food-Hut-(-Food-Ordering-Responsive-Design)-(Community)?node-id=0-1)
 
-## TIMELINE
+## Timeline
 
-- Expected: 14 days (from 2024/07/05 - 2024/07/26)
-- Total:  
+- Duration: 30 days (July 1, 2024 - July 30, 2024)
 
-## TEAM SIZE
+## Team Size
 
-- 1 dev
+- 1 developer
 
-## TARGETS
+## Targets
 
-- Build a website with HTML/CSS from the design
-- Familiar with common HTML tags and CSS selectors
-- Understand the concepts of Flex and Grid
-- Familiar with deploy tool, git flow, folder structure , plan management, analyze design
-  
-## TECHNICAL STACK
+- Build a website with HTML/CSS based on the design.
+- Get familiar with common HTML tags and CSS selectors.
+- Understand Flex and Grid concepts.
+- Learn about deployment tools, git flow, folder structure, project management, and design analysis.
+
+## Technical Stack
 
 - HTML/CSS3
 - Parcel
 - Vercel
 
-## INSTALL
+## Installation
 
-A step by step series of examples that tell you how to get a development
-environment running
+1. Clone the project repository:
 
-Clone project from repository
-
+    ```bash
     git clone https://github.com/CBinh710/html-css-training
+    ```
 
-Install node module
+2. Install node modules:
 
+    ```bash
     npm install
+    ```
 
+## Running
 
-## RUNNING
+- Use this command to run the website:
 
-Using this command to deploy website
-
+    ```bash
     npm run start
+    ```
