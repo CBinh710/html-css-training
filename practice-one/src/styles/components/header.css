@@ -14,9 +14,11 @@
     gap: 50px;
 }
 
-.navbar-container p {
+.navbar-container a {
     font-family: 'Sofia Pro Regular';
     font-size: 18px;
+    color: #191919;
+    text-decoration: none;
 }
 
 .header-button-wrapper{
