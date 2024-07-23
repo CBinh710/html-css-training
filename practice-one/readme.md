@@ -1,21 +1,35 @@
-# Food Hurt Design
 
-Create an online platform that helps customers easily find information about restaurants, menus, and other services.
 
-## Getting Started
+# Practice one Food hurt design
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+## OVERVIEW
 
-### Requirements
+- This is the document provided required for React practice two
+- [Design](https://www.figma.com/design/Q0oRUMv9ESYXfsIZjJXJn8/Food-Hut-(-Food-Ordering-Responsive-Design)-(Community)?node-id=0-1)
 
-Requirements for the software and other tools to build, test and push
-- [nodejs](https://nodejs.org/en/download/prebuilt-installer)
-- [htmlpost-include](https://github.com/posthtml/posthtml-include)
-- [parcel](https://parceljs.org/getting-started/webapp/)
+## TIMELINE
 
-### Installing
+- Expected: 14 days (from 2024/07/05 - 2024/07/26)
+- Total:  
+
+## TEAM SIZE
+
+- 1 dev
+
+## TARGETS
+
+- Build a website with HTML/CSS from the design
+- Familiar with common HTML tags and CSS selectors
+- Understand the concepts of Flex and Grid
+- Familiar with deploy tool, git flow, folder structure , plan management, analyze design
+  
+## TECHNICAL STACK
+
+- HTML/CSS3
+- Parcel
+- Vercel
+
+## INSTALL
 
 A step by step series of examples that tell you how to get a development
 environment running
@@ -29,14 +43,8 @@ Install node module
     npm install
 
 
-## Running the tests
+## RUNNING
 
 Using this command to deploy website
 
     npm run start
-
-## Built With
-
-  - [Google fonts](https://fonts.google.com/) - Used
-    for download local font.
-  - [Figma](https://www.figma.com/design/Q0oRUMv9ESYXfsIZjJXJn8/Food-Hut-(-Food-Ordering-Responsive-Design)-(Community)?node-id=0-1&t=cs2r7uec95u6R941-0) - Used for give design
