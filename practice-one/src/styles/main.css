@@ -1,4 +1,8 @@
 @import url(./reset.css);
 @import url(./typography.css);
 @import url(./components/main.css);
-
+body {
+    margin-left: 70px;
+    margin-right: 70px ;
+    margin-top: 32px;
+}
