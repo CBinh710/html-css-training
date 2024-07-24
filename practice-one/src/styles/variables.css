@@ -1,0 +1,10 @@
+:root {
+    --color-dark: #191919;
+    --color-primary: #F54748;
+    --color-accent: #FDC55E;
+    --color-white: #FFFFFF;
+    --color-neutral: #C4C4C4;
+    --color-warning: #FFB800;
+    --gradient-warm: linear-gradient(180deg, rgba(245, 71, 72, 0) 57.72%, #FDC55E 112.46%);
+    --gradient-strong: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 303.75%);
+  }
