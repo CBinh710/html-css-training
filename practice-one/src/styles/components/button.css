@@ -4,8 +4,8 @@ button {
     width: 162px;
     height: 45px;
     font-size: 18px;
-    background-color: #F54748;
-    color: #FFFF;
-    border: #F54748;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    border: none;
     padding: 10px;
 }
