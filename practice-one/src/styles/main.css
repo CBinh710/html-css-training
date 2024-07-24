@@ -1,6 +1,7 @@
 @import url(./reset.css);
 @import url(./typography.css);
 @import url(./components/main.css);
+@import url(./variables.css);
 body {
     margin-left: 70px;
     margin-right: 70px ;
