@@ -2,7 +2,7 @@
 
 ## Overview
 
-- This document is for React Practice Two.
+- This document is for HTML/CSS Practice One.
 - [Design](https://www.figma.com/design/Q0oRUMv9ESYXfsIZjJXJn8/Food-Hut-(-Food-Ordering-Responsive-Design)-(Community)?node-id=0-1)
 
 ## Timeline
