@@ -1,2 +1,9 @@
 @import url(./header.css);
 @import url(./footer.css);
+@import url(./introduction.css);
+@import url(./button.css);
+
+body {
+    margin-left: 50px;
+    margin-top: 50px
+}

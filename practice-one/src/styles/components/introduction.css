@@ -1,10 +1,52 @@
+.introduction-container {
+    display: flex;
+    align-items: center;
+}
 
-.introduction-content-detail p{
+.introduction-content-container {
+    flex: 1;
+    padding-top: 50px;
+}
+
+.illustrate-image {
+    flex: 1;
+}
+
+.people-trust-icon {
+    display: flex;
+    font-family: 'Sofia Pro Regular';
+    font-size: 14px;
+    box-shadow: drop;
+    border-radius: 100px;    
+    background-color:#FEE5E5;
+    padding: 5px;
+    width: 139px;
+}
+
+.people-trust-icon img {
+    margin-right:5px ;
+}
+
+.introduction-header {
+    display: flex;
+}
+
+.introduction-header p {
+    font-family: 'Sofia Pro Black';
+    font-size: 58px;   
+    margin: 0px; 
+}
+
+.header-decore {
+    padding-left: 194px;
+}
+
+.introduction-content-detail p {
     font-family: 'Sofia Pro Regular';
     font-size: 24px;
 }
 
-.search-food-container{
+.search-food-container {
     display: flex;
     align-items: center;
     border: solid 0.5px;
@@ -14,7 +56,13 @@
     height: 54px;
 }
 
-.search-food-container img{
+.search-food-container input[type="text"] {
+    font-family:'Sofia Pro Regular';
+    font-size: 18px;
+    border: 0;
+}
+
+.search-food-container img {
     width: 24px;
     height: 24px;
     margin-left:20px ;
@@ -22,7 +70,7 @@
     color: #FDC55E;
 }
 
-.search-food-container > input + img{
+.search-food-container > input + img {
     background-color:#FDC55E;
     border-radius: 50%;
     height: 24px;
@@ -31,13 +79,13 @@
     margin-left:156px ;
 }
 
-.download-watchvideo-wrapper{
+.download-watchvideo-wrapp {
     display: flex;
     align-items: center;
     padding-top: 25px;
 }
 
-.download-watchvideo-wrapper img{
+.download-watchvideo-wrapp img {
     padding: 14px;
     border-radius: 50%;
     margin-left: 25px;
@@ -46,7 +94,7 @@
 
 }
 
-.download-watchvideo-wrapper p{
+.download-watchvideo-wrapp p {
     font-family: 'Poppins Medium';
     font-size: 17px;
     color: #686D77;
