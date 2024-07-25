@@ -1,0 +1,10 @@
+.button {
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 100px;
+  width: 162px;
+  height: 45px;
+  color: var(--color-light);
+  font-family: var(--font-family-normal);
+  font-size: 18px;
+}
