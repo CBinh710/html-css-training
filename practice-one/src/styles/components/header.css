@@ -1,21 +1,21 @@
 .header-container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logo-company-container {
-    margin-top: 32px;
-    margin-left: 70px;
+.wrapper-navbar-container {
+    display: flex;
+    gap: 70px;
 }
 
 .navbar-container {
-    margin-left: 461px;
-    margin-top: 47px;
     display: flex;
     gap: 50px;
     list-style-type: none;
 }
 
-.navbar-container li {
+.navbar-container > li > a {
     font-family: var(--font-family-normal);
     font-size: 18px;
     color: var(--color-dark);
