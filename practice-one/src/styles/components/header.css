@@ -1,26 +1,23 @@
 .header-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .logo-company-container {
-    flex: 2;
+    margin-top: 32px;
+    margin-left: 70px;
 }
 
 .navbar-container {
-      flex: 3;
-      display: flex;
-      gap: 50px;
+    margin-left: 461px;
+    margin-top: 47px;
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
 }
 
-.navbar-container a {
-      font-family: 'Sofia Pro Regular';
-      font-size: 18px;
-      color: var(--color-dark);
-      text-decoration: none;
-}
-
-.header-button-wrapper {
-    flex: 1;
+.navbar-container li {
+    font-family: var(--font-family-normal);
+    font-size: 18px;
+    color: var(--color-dark);
+    text-decoration: none;
 }
