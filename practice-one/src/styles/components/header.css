@@ -1,3 +1,23 @@
-p {
-    color: red;
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-navbar-container {
+    display: flex;
+    gap: 70px;
+}
+
+.navbar-container {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.navbar-container > li > a {
+    font-family: var(--font-family-normal);
+    font-size: 18px;
+    color: var(--color-dark);
+    text-decoration: none;
 }
