@@ -38,7 +38,7 @@
 2. Change directory:
 
     ```bash
-    cd practice-one
+    cd html-css-training/practice-one
     ```
     
 3. Install node modules:
