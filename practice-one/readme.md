@@ -7,7 +7,7 @@
 
 ## Timeline
 
-- Duration: 30 days (July 1, 2024 - July 30, 2024)
+- Duration: 14 days (July 15, 2024 - July 29, 2024)
 
 ## Team Size
 
@@ -23,9 +23,9 @@
 ## Technical Stack
 
 - HTML/CSS3
-- Parcel
-- Vercel
-- PostHTML include
+- [Parcel](https://parceljs.org/getting-started/webapp/)
+- [Vercel](https://vercel.com/docs/deployments/git/vercel-for-github)
+- [posthtml-include](https://github.com/posthtml/posthtml-include)
 
 ## Installation
 
@@ -35,16 +35,23 @@
     git clone https://github.com/CBinh710/html-css-training
     ```
 
-2. Install node modules:
+2. Change directory:
+
+    ```bash
+    cd practice-one
+    ```
+    
+3. Install node modules:
 
     ```bash
     npm install
     ```
-
+    
 ## Running
-
-- Use this command to run the website:
+    
+ - Use this command to run the website:
 
     ```bash
     npm run start
     ```
+
