@@ -1,4 +1,8 @@
 .container {
-    margin-inline: auto;
-    padding: 70px;
+  margin-inline: auto;
+  padding: 70px;
+}
+
+html, body {
+  font-family: var(--font-family-primary);
 }
