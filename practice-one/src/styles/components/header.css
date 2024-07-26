@@ -16,7 +16,6 @@
 }
 
 .navbar-container > li > a {
-    font-family: var(--font-family-normal);
     font-size: 18px;
     color: var(--color-dark);
     text-decoration: none;
