@@ -9,7 +9,15 @@
   </head>
 <body class="container">
   <include src="./components/header.html"></include>
-  <include src="./components/food-card.html"></include>
+  <include src="./components/food-card.html" 
+  locals='{
+    "image": "./assets/images/kebab.png",
+    "rating": "./assets/images/kebab-rating.png",
+    "price":"10$",
+    "header":"Kebab",
+    "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit repellendus repudiandae quod error? Distinctio provident enim odio sunt, ea, ullam eligendi dolore non saep."
+  }'
+  ></include>
   <include src="./components/footer.html"></include>
 </body>
 </html>
