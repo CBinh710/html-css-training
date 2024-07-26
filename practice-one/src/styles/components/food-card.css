@@ -6,6 +6,7 @@
   height: 516px;
   border-radius: 25px;
   background: var(--color-gradient-strong);
+  position: relative;
 }
 
 .card-filter {
@@ -14,7 +15,6 @@
   width: 253.93px;
   height: 253.93px;
   border-radius: 50%;
-  z-index: 10;
 }
 
 .food-price {
@@ -26,10 +26,9 @@
   background-color: var(--color-accent);
   text-align: center;
   color: var(--color-light);
-  font-family: var(--font-family-normal);
   font-size: 18px;
   top: 175px;
-  left: 175px
+  left: 175px;
 }
 
 .food-image {
@@ -47,10 +46,16 @@
   color: var(--color-primary);
   font-family: var(--font-family-bold);
   font-size: 24px;
+  margin: 10px;
 }
 
 .food-card-text {
+  margin: 20px;
   color: var(--color-dark);
-  font-family: var(--font-family-normal);
   text-align: center;
+}
+
+.card-button {
+  position: absolute;
+  top: 500px;
 }
