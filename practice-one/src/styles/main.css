@@ -2,6 +2,3 @@
 @import url(./reset.css);
 @import url(./typography.css);
 @import url(./components/main.css);
-
-html, body {
-    font-family: var(--font-family-primary);
