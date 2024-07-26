@@ -1,4 +1,5 @@
 :root {
+<<<<<<< HEAD
   --color-dark: #191919;
   --color-primary: #F54748;
   --color-accent: #FDC55E;
@@ -9,4 +10,15 @@
   --color-gradient-strong: linear-gradient(179.69deg, rgba(255, 255, 255, 0) 0%, #F54748 303.75%);
   --font-family-primary: 'Sofia Pro Regular';
   --font-family-bold: 'Sofia Pro Semi Bold';
+=======
+    --color-dark: #191919;
+    --color-primary: #F54748;
+    --color-accent: #FDC55E;
+    --color-light: #FFFFFF;
+    --color-neutral: #C4C4C4;
+    --color-warning: #FFB800;
+    --color-gradient-warm: linear-gradient(180deg, rgba(245, 71, 72, 0) 57.72%, #FDC55E 112.46%);
+    --color-gradient-strong: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 303.75%);
+    --font-family-primary: 'Sofia Pro Regular';
+>>>>>>> e80c76a92db05c2df0e97e1810113e0b64f3f9b0
 }
