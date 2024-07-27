@@ -64,10 +64,40 @@
 
 .food-rating {
   width: 156px;
-  height: 58px;
   z-index: 4;
-  position: absolute;
+  position: relative;
   top: 135px;
+  align-items: center;
+  display: flex;
+}
+
+.rating-1 {
+  z-index: 7;
+  position: absolute;
+  left: 38px;
+}
+
+.rating-2 {
+  z-index: 6;
+  position: absolute;
+  left:19px ;
+}
+
+.rating-3 {
+  z-index: 5;
+  position: absolute;
+}
+
+.rating {
+  position: absolute;
+  left: 88px
+}
+
+.food-rating > p{
+  position: absolute;
+  left: 120px;
+  color: var(--color-dark);
+  font-weight: 600;
 }
 
 .food-name {
