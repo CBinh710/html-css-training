@@ -1,0 +1,25 @@
+<div class="food-card-container">
+
+  <div class="food-card-wrapper">
+    <div class="a21">
+      <div class="food-card">
+        <img src="{{image}}" alt="">
+      </div>
+      <div class="food-price"><p>{{price}}</p></div>
+    </div>
+  </div>
+
+  <div class="card-detail">
+    <div class="food-rating">
+      <img src="{{rating}}" alt="">
+    </div>
+    <p class="food-name">{{name}}</p>
+    <p class="food-detail">{{detail}} </p>
+  </div>
+
+  <div class="card-button">
+    <include src="./components/button.html" locals='{
+      "text": "Order now"
+    }'></include>
+  </div>
+</div>
