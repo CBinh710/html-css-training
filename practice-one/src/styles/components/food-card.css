@@ -1,62 +1,90 @@
-.card-container {
+.food-card-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 310px;
   height: 516px;
-  border-radius: 25px;
-  background: var(--color-gradient-strong);
   position: relative;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.card-filter {
-  position: relative;
+.food-card-wrapper {
+  display: flex;
   background: var(--color-gradient-warm);
   width: 253.93px;
   height: 253.93px;
+  position: relative;
+  z-index: 3;
   border-radius: 50%;
+}
+
+.food-card {
+  background-color: rgba(21, 0, 255, 0.5);
+  width: 198px;
+  height: 198px;
+  z-index: 4;
+  position: absolute;
+  margin:17.965px ;
+  border-radius: 50%;
+  border: solid 10px white;
 }
 
 .food-price {
-  position: absolute;
+  background-color: var(--color-accent);
   width: 60px;
   height: 60px;
+  position: absolute;
+  z-index: 5;
+  top: 163.93px;
+  left: 163.93px;
   border-radius: 50%;
-  border: 5px solid var(--color-light);
-  background-color: var(--color-accent);
+  border: solid 5px var(--color-light);
+}
+
+.food-price p {
   text-align: center;
-  color: var(--color-light);
   font-size: 18px;
-  top: 175px;
-  left: 175px;
+  color: #FFF;
 }
 
-.food-image {
+.card-detail {
+  display: flex;
+  flex-direction:column ;
+  top: 126.965px;
+  background: var(--color-gradient-strong);
+  width: 310px;
+  height: 368px;
   position: absolute;
-  width: 198px;
-  height: 198px;
-  border: 10px solid var(--color-light);
-  background-color: var(--color-accent);
-  border-radius: 50%;
-  top: 20px;
-  left: 20px;
+  z-index: 2;
+  border-radius: 20px;
+  align-items: center;
 }
 
-.food-card-header {
+.food-rating {
+  width: 156px;
+  height: 58px;
+  z-index: 4;
+  position: absolute;
+  top: 135px;
+}
+
+.food-name {
   color: var(--color-primary);
-  font-family: var(--font-family-bold);
   font-size: 24px;
+  font-weight: bolder;
+  position: absolute;
+  top: 170px;
+
 }
 
-.food-card-text {
-  color: var(--color-dark);
+.food-detail {
   text-align: center;
+  margin: 33.5;
   position: absolute;
-  margin: 20px;
-  top: 350px;
+  top: 210px;
 }
 
 .card-button {
-  position: absolute;
-  top: 500px;
+  z-index: 10;
 }
