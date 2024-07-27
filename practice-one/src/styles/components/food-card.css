@@ -67,6 +67,7 @@
   z-index: 4;
   position: absolute;
   top: 135px;
+  display: flex;
 }
 
 .food-name {
