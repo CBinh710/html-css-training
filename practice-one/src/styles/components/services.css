@@ -17,3 +17,25 @@
   font-size: 18px;
   color: var(--color-dark);
 }
+
+
+.service-list-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 24px);
+  gap: 30px;
+}
+
+.service-list-wrapper > div {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.service-list-wrapper > div > p {
+  margin-left: 5px;
+}
+
+.service-button {
+  margin-top: 50px;
+}
