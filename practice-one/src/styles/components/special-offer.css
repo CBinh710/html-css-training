@@ -1,0 +1,13 @@
+.special-offer-header {
+  font-family: var(--font-family-primary);
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+}
+
+.special-offer-describe {
+  font-size: 18px;
+  margin-left: 292px;
+  margin-right: 292px;
+  text-align: center;
+}
