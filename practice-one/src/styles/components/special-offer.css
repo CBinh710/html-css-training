@@ -11,3 +11,8 @@
   margin-right: 292px;
   text-align: center;
 }
+
+.special-offer-food-cards {
+  display: flex;
+  justify-content: space-between;
+}
