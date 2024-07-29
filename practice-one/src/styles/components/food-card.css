@@ -72,14 +72,9 @@
   left: 90px;
 }
 
-.rating {
+/* Sử dụng pseudo-class :nth-child để thay thế .rating */
+.food-rating .rating:nth-child(4n + 1) {
   margin-left: 90px;
-}
-
-.food-rating > p {
-  color: var(--color-dark);
-  font-weight: 600;
-  margin-left: 10px;
 }
 
 .food-name {
@@ -94,5 +89,6 @@
 
 .card-button {
   position: relative;
-  top: 30px;
+  bottom: 0;
+  transform: translateY(50%)
 }
