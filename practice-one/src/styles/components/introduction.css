@@ -1,0 +1,59 @@
+.introduction-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+}
+
+.introduction-content-container {
+  padding-top: 50px;
+}
+
+.people-trust-icon {
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  width: fit-content;
+  gap: 5px;
+  padding: 5px;
+  background-color: var(--color-icon-wrapper);
+}
+
+.people-trust-icon > p {
+  font-family: var(--font-family-primary);
+  font-size: 14px;
+}
+
+.header-introduction {
+  margin-top: 50px;
+}
+
+.header-introduction {
+  font-family: var(--font-family-primary);
+  font-size: 58px;
+  font-weight: 900;
+}
+
+.primary-color {
+  color: var(--color-primary);
+}
+
+.accent-color {
+  color: var(--color-accent);
+}
+
+.header-decor {
+  margin-left: 194px;
+}
+
+.para-introduction {
+  font-family: var(--font-family-primary);
+  font-size: 24px;
+  padding: 33px 0;
+  font-weight: 400;
+}
+
+.download-watch-video-wrapper > p {
+  font-family: var(--font-family-search-box);
+  font-size: 17px;
+  color: var(--color-neutral);
+}
