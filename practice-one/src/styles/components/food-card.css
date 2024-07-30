@@ -2,210 +2,98 @@
   display: flex;
   flex-direction: column;
   width: 310px;
-  height: 516px;
-  position: relative;
-  z-index: 1;
-  justify-content: space-between;
   align-items: center;
+  text-align: center;
+  position: relative;
 }
 
 .food-card-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--color-gradient-warm);
-  width: 253.93px;
-  height: 253.93px;
-  position: relative;
-  z-index: 3;
+  width: 254px;
+  height: 254px;
   border-radius: 50%;
 }
 
-.food-card {
-  background-color: rgba(21, 0, 255, 0.5);
-  width: 198px;
-  height: 198px;
-  z-index: 4;
-  position: absolute;
-  margin:17.965px ;
+.food-card-wrapper > img {
+  border: 10px solid var(--color-light);
   border-radius: 50%;
-  border: solid 10px white;
 }
 
 .food-price {
   background-color: var(--color-accent);
   width: 60px;
   height: 60px;
-  position: absolute;
-  z-index: 5;
-  top: 163.93px;
-  left: 163.93px;
   border-radius: 50%;
   border: solid 5px var(--color-light);
+  position: absolute;
+  top: 190px;
+  right: 60px;
+  z-index: 3;
 }
 
 .food-price p {
   text-align: center;
   font-size: 18px;
-  color: #FFF;
+  color: var(--color-light);
 }
 
 .card-detail {
   display: flex;
-  flex-direction:column ;
-  top: 126.965px;
+  flex-direction: column;
   background: var(--color-gradient-strong);
-  width: 310px;
-  height: 368px;
-  position: absolute;
-  z-index: 2;
   border-radius: 20px;
-  align-items: center;
 }
 
 .food-rating {
-  width: 156px;
-  z-index: 4;
-  position: relative;
-  top: 135px;
-  align-items: center;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.rating-1 {
-  z-index: 7;
+.food-rating div:nth-child(n) {
   position: absolute;
-  left: 38px;
 }
 
-.rating-2 {
-  z-index: 6;
-  position: absolute;
-  left:19px ;
+.food-rating div:nth-child(1) {
+  z-index: 4;
+  left: 110px;
 }
 
-.rating-3 {
-  z-index: 5;
-  position: absolute;
+.food-rating div:nth-child(2) {
+  z-index: 2;
+  left: 70px;
+}
+
+.food-rating div:nth-child(3) {
+  z-index: 3;
+  left: 90px;
 }
 
 .rating {
-  position: absolute;
-  left: 88px
+  margin-left: 90px;
 }
 
 .food-rating > p {
-  position: absolute;
-  left: 120px;
   color: var(--color-dark);
   font-weight: 600;
+  margin-left: 10px;
 }
 
 .food-name {
   color: var(--color-primary);
   font-size: 24px;
   font-weight: bolder;
-  position: absolute;
-  top: 170px;
-
 }
 
 .food-detail {
-  text-align: center;
-  margin: 33.5;
-  position: absolute;
-  top: 210px;
+  margin: 10px 20px;
 }
 
 .card-button {
-  z-index: 10;
-}
-.food-card-container {
-  display: flex;
-  flex-direction: column;
-  width: 310px;
-  height: 516px;
   position: relative;
-  z-index: 1;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.food-card-wrapper {
-  display: flex;
-  background: var(--color-gradient-warm);
-  width: 253.93px;
-  height: 253.93px;
-  position: relative;
-  z-index: 3;
-  border-radius: 50%;
-}
-
-.food-card {
-  background-color: rgba(21, 0, 255, 0.5);
-  width: 198px;
-  height: 198px;
-  z-index: 4;
-  position: absolute;
-  margin:17.965px ;
-  border-radius: 50%;
-  border: solid 10px white;
-}
-
-.food-price {
-  background-color: var(--color-accent);
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  z-index: 5;
-  top: 163.93px;
-  left: 163.93px;
-  border-radius: 50%;
-  border: solid 5px var(--color-light);
-}
-
-.food-price p {
-  text-align: center;
-  font-size: 18px;
-  color: #FFF;
-}
-
-.card-detail {
-  display: flex;
-  flex-direction:column ;
-  top: 126.965px;
-  background: var(--color-gradient-strong);
-  width: 310px;
-  height: 368px;
-  position: absolute;
-  z-index: 2;
-  border-radius: 20px;
-  align-items: center;
-}
-
-.food-rating {
-  width: 156px;
-  height: 58px;
-  z-index: 4;
-  position: absolute;
-  top: 135px;
-  display: flex;
-}
-
-.food-name {
-  color: var(--color-primary);
-  font-size: 24px;
-  font-weight: bolder;
-  position: absolute;
-  top: 170px;
-
-}
-
-.food-detail {
-  text-align: center;
-  margin: 33.5;
-  position: absolute;
-  top: 210px;
-}
-
-.card-button {
-  z-index: 10;
+    bottom: 0;
+  transform: translateY(50%)
 }
