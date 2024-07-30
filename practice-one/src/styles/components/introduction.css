@@ -18,28 +18,22 @@
 .people-trust-icon > p {
   font-family: var(--font-family-primary);
   font-size: 14px;
-  margin: 0px;
-}
-
-.people-trust-icon img {
-  margin-right: 5px;
 }
 
 .header-introduction {
-  display: flex;
+  margin-top: 50px;
 }
 
-.header-introduction p {
+.header-introduction b {
   font-family: var(--font-family-dark);
   font-size: 58px;
-  margin: 0px;
 }
 
-.header-introduction p > span {
+.primary-color {
   color: var(--color-primary);
 }
 
-.header-introduction p > span + span {
+.accent-color {
   color: var(--color-accent);
 }
 
@@ -50,4 +44,6 @@
 .para-introduction {
   font-family: var(--font-family-primary);
   font-size: 24px;
+  padding: 33px 0;
+  font-weight: 400;
 }
