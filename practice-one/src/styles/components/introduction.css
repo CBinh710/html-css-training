@@ -9,12 +9,9 @@
 }
 
 .people-trust-icon {
-  display: flex;
-  text-align: center;
-  box-shadow: drop;
   border-radius: 100px;
+  width: fit-content;
   padding: 5px;
-  width: 139px;
   background-color: var(--color-icon-wrapper);
 }
 
@@ -38,11 +35,19 @@
   margin: 0px;
 }
 
+.header-introduction p > span {
+  color: var(--color-primary);
+}
+
+.header-introduction p > span + span {
+  color: var(--color-accent);
+}
+
 .header-decor {
   margin-left: 194px;
 }
 
-.para-introduction p {
+.para-introduction {
   font-family: var(--font-family-primary);
   font-size: 24px;
 }
