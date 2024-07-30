@@ -9,8 +9,11 @@
 }
 
 .people-trust-icon {
+  display: flex;
+  align-items: center;
   border-radius: 100px;
   width: fit-content;
+  gap: 5px;
   padding: 5px;
   background-color: var(--color-icon-wrapper);
 }
