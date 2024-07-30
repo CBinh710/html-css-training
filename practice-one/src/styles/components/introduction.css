@@ -27,7 +27,7 @@
   margin-top: 50px;
 }
 
-.header-introduction b {
+.header-introduction {
   font-family: var(--font-family-primary);
   font-size: 58px;
   font-weight: 900;
@@ -50,4 +50,10 @@
   font-size: 24px;
   padding: 33px 0;
   font-weight: 400;
+}
+
+.download-watch-video-wrapper > p {
+  font-family: var(--font-family-search-box);
+  font-size: 17px;
+  color: var(--color-neutral);
 }
