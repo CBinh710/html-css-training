@@ -1,13 +1,8 @@
-.food-card-container {
-  display: flex;
-  flex-direction: column;
-  width: 310px;
-  align-items: center;
-  text-align: center;
+.food-container {
   position: relative;
 }
 
-.food-card-wrapper {
+.food-preview-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,9 +10,13 @@
   width: 254px;
   height: 254px;
   border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translate(50%, -50%);
 }
 
-.food-card-wrapper > img {
+.food-card-image {
   border: 10px solid var(--color-light);
   border-radius: 50%;
 }
@@ -26,76 +25,70 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  display: block;
+  margin: 0 auto;
   background-color: var(--color-accent);
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  border: solid 5px var(--color-light);
+  border: 5px solid var(--color-light);
   position: absolute;
-  top: 160px;
-  right: 50px;
+  bottom: 14px;
+  right: 14px;
   z-index: 3;
   font-size: 18px;
   color: var(--color-light);
 }
 
-.card-detail {
-  display: flex;
-  flex-direction: column;
+.food-content-container {
+  width: 310px;
+  height: 370px;
   background: var(--color-gradient-strong);
   border-radius: 20px;
+  padding: 0 33px 57px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .food-rating {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-bottom: 70px;
 }
 
-.food-rating div:nth-child(n) {
-  position: absolute;
-}
-
-.food-rating div:nth-child(1) {
-  z-index: 4;
-  left: 110px;
+.star-rating {
+  font-weight: 600;
 }
 
 .food-rating div:nth-child(2) {
+  position: absolute;
   z-index: 2;
-  left: 70px;
+  left: 115px;
 }
 
 .food-rating div:nth-child(3) {
+  position: absolute;
   z-index: 3;
-  left: 90px;
-}
-
-.rating {
-  margin-left: 90px;
-}
-
-.food-rating > p {
-  color: var(--color-dark);
-  font-weight: 600;
-  margin-left: 10px;
+  left: 100px;
 }
 
 .food-name {
   color: var(--color-primary);
   font-size: 24px;
   font-weight: bolder;
-  margin-top: 40px;
-  margin-bottom: 10px;
 }
 
 .food-detail {
-  margin: 10px 20px;
+  padding: 20px;
 }
 
-.card-button {
+.card-order-button {
   position: relative;
   bottom: 0;
-  transform: translateY(50%);
+  transform: translateY(-50%);
+}
+
+.rating {
+  margin: 0 5px 0 10px;
 }
