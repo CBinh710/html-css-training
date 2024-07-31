@@ -26,7 +26,7 @@
 - [Parcel](https://parceljs.org/getting-started/webapp/)
 - [Vercel](https://vercel.com/docs/deployments/git/vercel-for-github)
 - [posthtml-include](https://github.com/posthtml/posthtml-include)
-
+- [NodeJS-v20.15.1](https://nodejs.org/en/blog/release/v20.15.1)
 ## Installation
 
 1. Clone the project repository:
