@@ -39,10 +39,11 @@
 }
 
 .food-content-container {
-  width: 244px;
+  width: 310px;
   height: 370px;
   background: var(--color-gradient-strong);
   border-radius: 20px;
+  padding-inline: 33px;
   padding-bottom: 57px;
   display: flex;
   align-items: flex-end;
