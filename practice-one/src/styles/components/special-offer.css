@@ -1,0 +1,21 @@
+.special-offer {
+  margin: 200px 0px;
+  text-align: center;
+}
+
+.special-offer > h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.special-offer > p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 30px 250px;
+  color: var(--color-dark);
+}
+
+.special-offer-food-wrapper {
+  display: flex;
+  justify-content: space-between;
+}

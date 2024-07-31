@@ -40,15 +40,15 @@
     ```bash
     cd html-css-training/practice-one
     ```
-
+    
 3. Install node modules:
 
     ```bash
     npm install
     ```
-
+    
 ## Running
-
+    
  - Use this command to run the website:
 
     ```bash
