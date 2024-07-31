@@ -52,14 +52,13 @@
   font-weight: 400;
 }
 
-
 .search-food-container {
   display: flex;
   align-items: center;
   border: solid 0.5px;
   border-color: var(--color-dark);
   border-radius: 100px;
-  width:471px;
+  width: 471px;
   height: 54px;
 }
 
@@ -68,7 +67,6 @@
   font-family: var(--font-family-primary);
   font-size: 18px;
 }
-
 
 .search-food-container > img {
   margin:20px ;
