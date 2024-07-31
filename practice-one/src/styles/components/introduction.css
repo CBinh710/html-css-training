@@ -52,6 +52,47 @@
   font-weight: 400;
 }
 
+.search-food-container {
+  display: flex;
+  align-items: center;
+  border: solid 0.5px;
+  border-color: var(--color-dark);
+  border-radius: 100px;
+  width: 471px;
+  height: 54px;
+}
+
+.search-food-container > input[type="text"] {
+  border: none;
+  font-family: var(--font-family-primary);
+  font-size: 18px;
+}
+
+.search-food-container > img {
+  margin: 20px;
+  color: (var(--color-accent));
+}
+
+.search-food-container > input + img {
+  background-color: var(--color-accent);
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 156px;
+}
+
+.download-watch-video-wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.download-watch-video-wrapper > img {
+  padding: 14px;
+  border-radius: 50%;
+  margin: 25px;
+  box-shadow: 2px 2px 10px var(--color-icon-wrapper) ;
+}
+
 .download-watch-video-wrapper > p {
   font-family: var(--font-family-search-box);
   font-size: 17px;
