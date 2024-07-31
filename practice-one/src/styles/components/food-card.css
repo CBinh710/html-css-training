@@ -43,7 +43,6 @@
   height: 370px;
   background: var(--color-gradient-strong);
   border-radius: 20px;
-  padding-inline: 33px;
   padding-bottom: 57px;
   display: flex;
   align-items: flex-end;
@@ -63,19 +62,19 @@
 
 .rating {
   margin-right: 5px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .food-rating div:nth-child(2) {
   position: absolute;
   z-index: 2;
-  left: 115px;
+  left: 80px;
 }
 
 .food-rating div:nth-child(3) {
   position: absolute;
   z-index: 3;
-  left: 100px;
+  left: 60px;
 }
 
 .food-name {
