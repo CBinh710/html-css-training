@@ -83,7 +83,6 @@
 }
 
 .card-order-button {
-  position: relative;
   bottom: 0;
   transform: translateY(-50%);
 }
@@ -91,4 +90,9 @@
 .rating {
   margin-right: 5px;
   margin-left: 10px;
+}
+
+.special-offer-food-wrapper {
+  display: flex;
+  justify-content: space-between;
 }

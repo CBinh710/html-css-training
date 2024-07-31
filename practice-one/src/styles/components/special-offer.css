@@ -3,12 +3,12 @@
   text-align: center;
 }
 
-.special-offer > h2 {
+.special-offer-heading {
   font-size: 48px;
   font-weight: 700;
 }
 
-.special-offer > p {
+.special-offer-para {
   font-size: 18px;
   font-weight: 400;
   margin: 30px 250px;
@@ -19,3 +19,4 @@
   display: flex;
   justify-content: space-between;
 }
+
