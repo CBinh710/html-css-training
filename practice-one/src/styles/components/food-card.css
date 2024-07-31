@@ -1,13 +1,8 @@
-.food-card-container {
-  display: flex;
-  flex-direction: column;
-  width: 310px;
-  align-items: center;
-  text-align: center;
+.food-container {
   position: relative;
 }
 
-.food-card-wrapper {
+.food-preview-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,36 +10,44 @@
   width: 254px;
   height: 254px;
   border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translate(50%,-50%);
 }
 
-.food-card-wrapper > img {
+.food-card-image {
   border: 10px solid var(--color-light);
   border-radius: 50%;
 }
 
 .food-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--color-accent);
   width: 60px;
   height: 60px;
   border-radius: 50%;
   border: solid 5px var(--color-light);
   position: absolute;
-  top: 190px;
-  right: 60px;
+  bottom: 14px;
+  right: 14px;
   z-index: 3;
-}
-
-.food-price p {
-  text-align: center;
   font-size: 18px;
   color: var(--color-light);
 }
 
-.card-detail {
-  display: flex;
-  flex-direction: column;
+.food-content-container {
+  width: 310px;
+  height: 370px;
   background: var(--color-gradient-strong);
   border-radius: 20px;
+  padding-inline: 33px;
+  padding-bottom: 57px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .food-rating {
@@ -53,47 +56,47 @@
   align-items: center;
 }
 
-.food-rating div:nth-child(n) {
-  position: absolute;
-}
-
-.food-rating div:nth-child(1) {
-  z-index: 4;
-  left: 110px;
-}
-
-.food-rating div:nth-child(2) {
-  z-index: 2;
-  left: 70px;
-}
-
-.food-rating div:nth-child(3) {
-  z-index: 3;
-  left: 90px;
+.star-rating {
+  font-weight: 600;
 }
 
 .rating {
-  margin-left: 90px;
+  margin-right: 5px;
+  margin-left: 10px;
 }
 
-.food-rating > p {
-  color: var(--color-dark);
-  font-weight: 600;
-  margin-left: 10px;
+.food-rating div:nth-child(2) {
+  position: absolute;
+  z-index: 2;
+  left: 115px;
+}
+
+.food-rating div:nth-child(3) {
+  position: absolute;
+  z-index: 3;
+  left: 100px;
 }
 
 .food-name {
   color: var(--color-primary);
   font-size: 24px;
   font-weight: bolder;
+  text-align: center;
 }
 
 .food-detail {
-  margin: 10px 20px;
+  padding: 20px;
+  text-align: center;
 }
 
-.card-button {
-  position: relative;
-    bottom: 0;
-  transform: translateY(50%)
+.card-order-button {
+  bottom: 0;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.food-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
 }
