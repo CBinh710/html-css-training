@@ -20,7 +20,7 @@
 
 .people-trust-icon > p {
   font-family: var(--font-family-primary);
-  font-size: 14px;
+  font-size: var(--font-size-ex-small);
 }
 
 .header-introduction {
@@ -29,7 +29,7 @@
 
 .header-introduction {
   font-family: var(--font-family-primary);
-  font-size: 58px;
+  font-size: var(--font-size-header);
   font-weight: 900;
 }
 
@@ -47,7 +47,7 @@
 
 .para-introduction {
   font-family: var(--font-family-primary);
-  font-size: 24px;
+  font-size: var(--font-size-large);
   padding: 33px 0;
   font-weight: 400;
 }
@@ -65,7 +65,7 @@
 .search-food-container > input[type="text"] {
   border: none;
   font-family: var(--font-family-primary);
-  font-size: 18px;
+  font-size: var(--font-size-normal);
 }
 
 .search-food-container > img {
@@ -95,6 +95,6 @@
 
 .download-watch-video-wrapper > p {
   font-family: var(--font-family-search-box);
-  font-size: 17px;
+  font-size: var(--font-size-normal);
   color: var(--color-neutral);
 }

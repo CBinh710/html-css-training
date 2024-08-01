@@ -19,6 +19,6 @@
   color: var(--color-dark);
   padding-top: 20px;
   padding-bottom: 10px;
-  font-size: 18px;
+  font-size: var(--font-size-normal);
   line-height: 1.3;
 }
