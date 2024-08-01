@@ -17,7 +17,7 @@
 }
 
 .navbar-container > li > a {
-  font-size: 18px;
+  font-size: var(--font-size-large);
   color: var(--color-dark);
   text-decoration: none;
 }

@@ -1,0 +1,28 @@
+.service-container {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+}
+  
+.service-icon {
+  margin-right: 10px;
+}
+  
+.service-header {
+  font-size: var(--font-size-sub-header);
+  font-weight: 700;
+  line-height: 1.3;
+  width: 452px;
+}
+  
+.service-description {
+  color: var(--color-dark);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: var(--font-size-normal);
+  line-height: 1.3;
+}
+
+.service-description-container {
+  margin-left: 20px;
+}

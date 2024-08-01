@@ -10,4 +10,11 @@
   --color-gradient-strong: linear-gradient(179.69deg, rgba(255, 255, 255, 0) , #F54748 303.75%);
   --font-family-primary: 'Sofia Pro';
   --font-family-secondary: 'Poppins';
+  --font-size-ex-small: 14px;
+  --font-size-small: 16px;
+  --font-size-normal: 18px;
+  --font-size-large: 24px;
+  --font-size-extra-large: 32px;
+  --font-size-header: 58px;
+  --font-size-sub-header: 48px;
 }
