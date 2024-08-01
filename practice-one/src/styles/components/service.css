@@ -1,0 +1,24 @@
+.service-container {
+  display: flex;
+  align-items: center;
+  padding-top: 200px;
+}
+  
+.service-icon {
+  margin-right: 10px;
+}
+  
+.service-header {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+  
+.service-description {
+  font-size: 18px;
+  color: var(--color-dark);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.3;
+}
