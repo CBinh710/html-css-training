@@ -7,7 +7,12 @@
 .service-icon {
   margin-right: 10px;
 }
-  
+
+.illustration-service-image {
+  width: 481px;
+  height: 538px;
+}
+
 .service-header {
   font-size: var(--font-size-sub-header);
   font-weight: 700;
@@ -25,4 +30,21 @@
 
 .service-description-container {
   margin-left: 20px;
+}
+
+.service-list-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 24px);
+  gap: 30px;
+}
+  
+.service {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.service-button {
+  margin-top: 50px;
 }
