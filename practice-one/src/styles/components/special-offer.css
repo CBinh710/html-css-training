@@ -2,6 +2,11 @@
   margin-top: 100px;
 }
 
+.illustration-service-image {
+  width: 510px;
+  height: 562px;
+}
+
 .special-offer-heading {
   font-size: var(--font-size-sub-header);
   line-height: 1.3;
