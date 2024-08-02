@@ -25,12 +25,14 @@
 .play-store {
   width: 135px;
   height: 40px;
+  border: none;
+  background-color: transparent;
 }
 
 .app-store {
   margin-left: 27px;
-  width: 120px;
-  height: 40px;
+  border: none;
+  background-color: transparent;
 }
 
 .mobile-introduction-illustration {
