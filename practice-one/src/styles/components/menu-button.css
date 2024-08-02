@@ -1,0 +1,12 @@
+.menu-button {
+  border-radius: 100px;
+  border: solid 2px;
+  padding: 10px 20px;
+  font-size: var(--font-size-normal);
+  color: var(--color-dark);
+}
+
+.menu-button:hover {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}

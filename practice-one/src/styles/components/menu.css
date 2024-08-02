@@ -1,26 +1,15 @@
 .menu-heading {
-  font-size: 48px;
+  font-size: var(--font-size-sub-header);
   font-weight: 700;
   line-height: 67px;
   text-align: center;
-  padding: 0px 300px;
+  padding-inline: 300px;
   margin: 200px 0 50px 0;
 }
 
 .menu-tag {
   display: flex;
   justify-content: space-around;
+  padding-inline: 150px;
 }
 
-.menu-change-button {
-  border-radius: 100px;
-  border: solid 2px;
-  padding: 10px 20px;
-  font-size: var(--font-size-normal);
-  color: var(--color-dark);
-}
-
-.menu-change-button:hover {
-  background-color: var(--color-primary);
-  color: var(--color-light);
-}
