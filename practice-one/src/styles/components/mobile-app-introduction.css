@@ -1,0 +1,41 @@
+.mobile-app-introduction-container {
+  display: flex;
+  margin-top: 229px;
+  justify-content: space-between;
+}
+
+.introduction-app-heading {
+  width: 643px;
+  font-size: var(--font-size-sub-header);
+  font-weight: var(--font-weight-heading);
+  line-height: var(--line-height-normal);
+}
+
+.introduction-app-content {
+  margin: 47px 0 42px 0;
+  width: 550px;
+  line-height: var(--line-height-normal);
+  color: var(--color-dark);
+}
+
+.app-icon {
+  display: flex;
+}
+
+.play-store {
+  width: 135px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+}
+
+.app-store {
+  margin-left: 27px;
+  border: none;
+  background-color: transparent;
+}
+
+.mobile-introduction-illustration {
+  width: 665px;
+  height: 652px;
+}
