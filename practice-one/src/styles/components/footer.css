@@ -14,16 +14,16 @@
 }
 
 .brief-heading {
-  color: var(--color-primary,#F54748);
-  font-weight: var(--font-weight-sub-heading, 600);
-  line-height: var(--line-height-normal, 1.3);
-  font-size: var(--font-size-extra-large, 32px);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-sub-heading);
+  line-height: var(--line-height-normal);
+  font-size: var(--font-size-extra-large);
 }
 
 .brief-content {
   margin-top: 10px;
   margin-bottom: 23px;
-  font-size: var(--font-size-normal, 18px);
+  font-size: var(--font-size-normal);
 }
 
 .brief-icon-container {
@@ -33,26 +33,24 @@
   width: 100px;
 }
 
-.company-information-container {
-  margin: 0 94px 0 99px;
+.social-media-icon {
+  width: 20px;
+  height: 20px;
 }
 
-.about-us-heading,
 .company-information-heading {
-  color: var(--color-primary, #F54748);
-  font-size: var(--font-size-large, 48px);
-  font-weight: var(--font-weight-sub-heading, 600);
+  color: var(--color-primary);
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-sub-heading);
 }
 
-.about-us-item,
 .company-information-item {
   margin-top: 14px;
 }
 
-.about-us-item > a,
 .company-information-item > a {
-  font-size: var(--font-size-normal, 18px);
-  color: var(--color-dark, #191919);
+  font-size: var(--font-size-normal);
+  color: var(--color-dark);
   text-decoration: none;
 }
 
@@ -61,15 +59,15 @@
 }
 
 .subscribe-heading {
-  font-size: var(--font-size-large, 48px);
-  color: var(--color-primary, #F54748);
-  font-weight: var(--font-weight-heading, 700);
+  font-size: var(--font-size-large);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-heading);
 }
 
 .subscribe-content {
-  line-height: var(--line-height-normal, 1.3);
+  line-height: var(--line-height-normal);
   margin: 37px 0 27px 0;
-  font-size: var(--font-size-normal, 18px);
+  font-size: var(--font-size-normal);
 }
 
 .subscribe-input > input[type="text"] {
@@ -77,12 +75,12 @@
   height: 50px;
   border-radius: 38px;
   padding-left: 20px;
-  background: var(--color-neutral, #C4C4C4);
+  background: var(--color-neutral);
   border: none;
 }
 
 .subscribe-input > input[type="text"]::placeholder {
-  font-size: var(--font-size-ex-small, 14px);
+  font-size: var(--font-size-ex-small);
 }
 
 .copyright {
