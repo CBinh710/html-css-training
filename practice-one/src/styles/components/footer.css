@@ -1,0 +1,89 @@
+.footer-container {
+  margin-top: 158px;
+}
+
+.website-summary-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brief-description {
+  width: 325px;
+  padding-left: 56px;
+  margin-right: 109px;
+}
+
+.brief-heading {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-sub-heading);
+  line-height: var(--line-height-normal);
+  font-size: var(--font-size-extra-large);
+}
+
+.brief-content {
+  margin-top: 10px;
+  margin-bottom: 23px;
+  font-size: var(--font-size-normal);
+}
+
+.brief-icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+
+.social-media-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.company-information-heading {
+  color: var(--color-primary);
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-sub-heading);
+}
+
+.company-information-item {
+  margin-top: 14px;
+}
+
+.company-information-item > a {
+  font-size: var(--font-size-normal);
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+.subscribe-form {
+  width: 379px;
+}
+
+.subscribe-heading {
+  font-size: var(--font-size-large);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-heading);
+}
+
+.subscribe-content {
+  line-height: var(--line-height-normal);
+  margin: 37px 0 27px 0;
+  font-size: var(--font-size-normal);
+}
+
+.subscribe-input > input[type="text"] {
+  width: 205px;
+  height: 50px;
+  border-radius: 38px;
+  padding-left: 20px;
+  background: var(--color-neutral);
+  border: none;
+}
+
+.subscribe-input > input[type="text"]::placeholder {
+  font-size: var(--font-size-ex-small);
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 95px;
+}
