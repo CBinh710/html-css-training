@@ -1,16 +1,14 @@
 .introduction-container {
   display: flex;
   justify-content: space-between;
-  gap: 300px;
+  gap: 200px;
 }
 
 .introduction-content-container {
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
-.people-trust-icon {
-  display: flex;
-  align-items: center;
+.people-trust-icon-wrapper {
   border-radius: 100px;
   width: fit-content;
   gap: 5px;
@@ -18,19 +16,16 @@
   background-color: var(--color-icon-wrapper);
 }
 
-.people-trust-icon > p {
-  font-family: var(--font-family-primary);
-  font-size: var(--font-size-ex-small);
-}
-
-.header-introduction {
-  margin-top: 50px;
+.people-trust-icon , .people-trust-icon > span {
+  display: inline-block; 
+  vertical-align: middle;
 }
 
 .header-introduction {
   font-family: var(--font-family-primary);
   font-size: var(--font-size-header);
   font-weight: 900;
+  margin-top: 50px;
 }
 
 .primary-color {
@@ -48,53 +43,60 @@
 .para-introduction {
   font-family: var(--font-family-primary);
   font-size: var(--font-size-large);
-  padding: 33px 0;
+  margin: 33px 0;
   font-weight: 400;
 }
 
-.search-food-container {
-  display: flex;
-  align-items: center;
-  border: solid 0.5px;
-  border-color: var(--color-dark);
-  border-radius: 100px;
-  width: 471px;
-  height: 54px;
-}
-
-.search-food-container > input[type="text"] {
-  border: none;
+.search-container {
   font-family: var(--font-family-primary);
   font-size: var(--font-size-normal);
+  height: 54px;
+  width: 371px;
+  border-radius: 100px;
+  padding-inline: 50px;
 }
 
-.search-food-container > img {
-  margin: 20px;
-  color: (var(--color-accent));
+.search-box-container {
+  position: relative;
 }
 
-.search-food-container > input + img {
+.search-black-icon {
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.search-white-icon {
   background-color: var(--color-accent);
   border-radius: 50%;
-  padding: 10px;
-  margin-left: 156px;
+  padding: 9px;
+  left: 420px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .download-watch-video-wrapper {
   display: flex;
   align-items: center;
-  padding-top: 25px;
+  margin-top: 25px;
 }
 
-.download-watch-video-wrapper > img {
+.play-button {
   padding: 14px;
   border-radius: 50%;
   margin: 25px;
   box-shadow: 2px 2px 10px var(--color-icon-wrapper) ;
 }
 
-.download-watch-video-wrapper > p {
+.watch-video-container > p {
   font-family: var(--font-family-search-box);
   font-size: var(--font-size-normal);
   color: var(--color-neutral);
+}
+
+.play-button , .watch-video-container > p {
+  display: inline-block; 
+  vertical-align: middle;
 }
