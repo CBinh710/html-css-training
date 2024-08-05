@@ -17,7 +17,8 @@
 .special-offer-content {
   font-size: var(--font-size-normal);
   text-align: center;
-  padding: 22px 200px;
+  padding: 0 200px;
+  margin: 22px 0;
 }
 
 .special-offer-food-card {
