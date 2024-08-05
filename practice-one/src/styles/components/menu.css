@@ -3,14 +3,40 @@
   font-weight: var(--font-weight-heading);
   line-height: var(--line-height-normal);
   text-align: center;
-  padding-inline: 300px;
-  margin: 200px 0 50px 0;
+  padding-inline: 394px;
+  margin-top: 200px;
+}
+
+.button-menu-wrapper {
+  margin: 50px 0;
+}
+
+.button-menu-wrapper > input[type="checkbox"] {
+  display: none;
+}
+
+.button-menu-wrapper > label {
+  cursor: pointer;
+  border: solid;
+  border-radius: 100px;
+  padding: 15px 25px;
+  font-size: var(--font-size-normal);
+  color: var(--color-dark);
+}
+
+.button-menu-wrapper > input[type="checkbox"]:checked + label {
+  color: var(--color-light);
+  border: solid var(--color-primary);
+  border-radius: 100px;
+  padding: 15px 25px;
+  background-color: var(--color-primary);
 }
 
 .menu-tag {
   display: flex;
   justify-content: space-around;
   padding-inline: 150px;
+  margin-top: 50px;
 }
 
 .list-food-card-container {
