@@ -17,7 +17,7 @@
 }
 
 .people-trust-icon , .people-trust-icon > span {
-  display: inline-block; 
+  display: inline-block;
   vertical-align: middle;
 }
 
@@ -70,8 +70,9 @@
 .search-white-icon {
   background-color: var(--color-accent);
   border-radius: 50%;
+  cursor: pointer;
   padding: 9px;
-  left: 420px;
+  left: 424px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -97,6 +98,7 @@
 }
 
 .play-button , .watch-video-container > p {
-  display: inline-block; 
+  display: inline-block;
   vertical-align: middle;
+  cursor: pointer;
 }
