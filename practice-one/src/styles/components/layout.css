@@ -5,4 +5,5 @@
 
 html, body {
   font-family: var(--font-family-primary);
+  width: 1440px;
 }
