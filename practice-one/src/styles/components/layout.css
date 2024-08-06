@@ -1,9 +1,10 @@
 .container {
-  margin-inline: auto;
   padding: 70px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 html, body {
   font-family: var(--font-family-primary);
-  width: 1440px;
 }
+
