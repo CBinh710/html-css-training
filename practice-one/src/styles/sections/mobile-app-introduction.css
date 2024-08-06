@@ -27,12 +27,14 @@
   height: 40px;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .app-store {
   margin-left: 27px;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .mobile-introduction-illustration {
