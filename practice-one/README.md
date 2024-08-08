@@ -34,14 +34,19 @@
     ```bash
     git clone https://github.com/CBinh710/html-css-training
     ```
+2. Move to project branch
 
-2. Change directory:
+   ```bash
+   git checkout origin/Practice-1
+   ```
+   
+3. Change directory:
 
     ```bash
     cd html-css-training/practice-one
     ```
     
-3. Install node modules:
+4. Install node modules:
 
     ```bash
     npm install
