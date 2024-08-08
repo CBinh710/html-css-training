@@ -16,6 +16,10 @@
   list-style-type: none;
 }
 
+.navbar-container :hover {
+  color: var(--color-primary);
+}
+
 .navbar-container > li > a {
   font-size: var(--font-size-large);
   color: var(--color-dark);
