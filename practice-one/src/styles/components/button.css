@@ -6,4 +6,5 @@
   padding: 15px 25px;
   color: var(--color-light);
   font-size: var(--font-size-normal);
+  font-family: var(--font-family-primary);
 }
