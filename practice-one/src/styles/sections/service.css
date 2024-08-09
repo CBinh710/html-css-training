@@ -50,3 +50,27 @@
 .service-button {
   margin-top: 50px;
 }
+
+.service:nth-child(1)::after {
+  content: 'Online order';
+}
+
+.service:nth-child(2)::after {
+  content: '24/7 Service';
+}
+
+.service:nth-child(3)::after {
+  content: 'Pre-Reservation';
+}
+
+.service:nth-child(4)::after {
+  content: 'Super Chef';
+}
+
+.service:nth-child(5)::after {
+  content: 'Organized Foodhut Place';
+}
+
+.service:nth-child(6)::after {
+  content: 'Clean Kitchen';
+}
