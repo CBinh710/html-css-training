@@ -4,12 +4,6 @@
   margin-top: 200px;
 }
 
-.service-icon {
-  margin-right: 10px;
-  height: 28px;
-  width: 28px;
-}
-
 .illustration-service-image {
   width: 481px;
   height: 538px;
@@ -49,4 +43,28 @@
 
 .service-button {
   margin-top: 50px;
+}
+
+.service::before {
+  width: 26px;
+  height: 28px;
+}
+
+.service:nth-child(1)::before {
+  content: url('../../assets/images/order-online.svg');
+}
+
+.service:nth-child(2)::before {
+  content: url('../../assets/images/247service.svg');
+}
+
+.service:nth-child(3)::before,
+.service:nth-child(4)::before,
+.service:nth-child(5)::before,
+.service:nth-child(6)::before {
+  content: url('../../assets/images/service-cake.svg');
+}
+
+.service > p {
+  margin-left: 10px;
 }
