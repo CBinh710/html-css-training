@@ -47,26 +47,38 @@
 
 .service:nth-child(1)::before {
   content: url('../../assets/images/order-online.svg');
+  width: 28px;
+  height: 28px;
 }
 
 .service:nth-child(2)::before {
   content: url('../../assets/images/247service.svg');
+  width: 28px;
+  height: 28px;
 }
 
 .service:nth-child(3)::before {
   content: url('../../assets/images/service-cake.svg');
+  width: 28px;
+  height: 28px;
 }
 
 .service:nth-child(4)::before {
   content: url('../../assets/images/service-cake.svg');
+  width: 28px;
+  height: 28px;
 }
 
 .service:nth-child(5)::before {
   content: url('../../assets/images/service-cake.svg');
+  width: 28px;
+  height: 28px;
 }
 
 .service:nth-child(6)::before {
   content: url('../../assets/images/service-cake.svg');
+  width: 28px;
+  height: 28px;
 }
 
 .service > p {
