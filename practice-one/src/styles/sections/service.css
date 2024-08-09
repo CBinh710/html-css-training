@@ -46,7 +46,7 @@
 }
 
 .service:nth-child(n)::before {
-  width: 28px;
+  width: 26px;
   height: 28px;
 }
 
