@@ -45,7 +45,7 @@
   margin-top: 50px;
 }
 
-.service:nth-child(n)::before {
+.service::before {
   width: 26px;
   height: 28px;
 }
