@@ -25,3 +25,7 @@
   color: var(--color-dark);
   text-decoration: none;
 }
+
+.navbar-button {
+  display: none;
+}

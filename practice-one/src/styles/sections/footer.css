@@ -39,6 +39,10 @@
   cursor: pointer;
 }
 
+.company-information-wrapper {
+  display: flex;
+}
+
 .company-information-heading {
   color: var(--color-primary);
   font-size: var(--font-size-large);

@@ -105,11 +105,3 @@
   vertical-align: middle;
   cursor: pointer;
 }
-
-/* Responsive */
-
-@media (max-width: 768px) {
-.introduction-container {
-  flex-direction: column-reverse;
-}
-}

@@ -1,0 +1,84 @@
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .introduction-container {
+    flex-direction: column-reverse;
+  }
+
+  .navbar-button {
+    display: block;
+    border: none;
+    background-color: transparent;
+  }
+
+  .wrapper-navbar-container {
+    display: none;
+  }
+
+  .special-offer-food-card {
+    justify-content: center;
+  }
+
+  .food-card-wrapper:nth-child(n+2) {
+    display: none;
+  }
+
+  .service-container {
+    flex-direction: column;
+  }
+
+  .service-container {
+    margin: 10%;
+  }
+  .special-offer-content {
+    padding-inline: 10%;
+  }
+
+  .service-list-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .menu-heading {
+    width: 363px;
+    padding-inline: 10%;
+  }
+
+  .list-food-card-container {
+    justify-content: center;
+  }
+
+  .mobile-introduction-illustration {
+    max-width: 365px;
+    max-height: 365px;
+    justify-content: center;
+  }
+
+  .mobile-introduction-illustration > img {
+    width: 100%;
+  }
+
+  .mobile-app-introduction-container {
+    flex-direction: column-reverse;
+  }
+
+  .introduction-app-container {
+    width: 317px;
+  }
+
+  .website-summary-container {
+    flex-direction: column;
+    gap: 30px;
+    width: 379px;
+  }
+
+  .company-information-wrapper {
+    gap: 80px;
+  }
+
+  .brief-description {
+    margin: 0%;
+    padding: 0%;
+  }
+}
+
