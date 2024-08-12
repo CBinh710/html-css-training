@@ -1,15 +1,37 @@
 /* Responsive */
 
-@media (max-width: 768px) {
+@media (max-width: 429px) {
+  .logo-company-container {
+    width: 97px;
+    height: 62px;
+  }
+
+  .container {
+    padding: 10% 5%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
 
   .introduction-container {
     flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  .search-container {
+    padding-inline: 50px;
+    box-sizing: border-box;
   }
 
   .navbar-button {
     display: block;
     border: none;
     background-color: transparent;
+  }
+
+  .search-white-icon {
+    left: 325px;
   }
 
   .wrapper-navbar-container {
@@ -26,13 +48,23 @@
 
   .service-container {
     flex-direction: column;
+    margin: 0%;
   }
 
+  .header-decor {
+    margin: 0%;
+    width: 270px;
+  }
+
+  .illustration-service-image {
+    width: 100% ;
+    height: auto;
+  }
   .service-container {
     margin: 10%;
   }
   .special-offer-content {
-    padding-inline: 10%;
+    padding-inline: 0%;
   }
 
   .service-list-wrapper {
@@ -40,8 +72,36 @@
   }
 
   .menu-heading {
-    width: 363px;
-    padding-inline: 10%;
+    margin-top: 120px;
+    padding-inline: 0%;
+  }
+
+  .button-menu-wrapper > label {
+    padding: 10px 15px;
+  }
+
+  .menu-tag-container {
+    overflow-x: auto; /* Cho phép cuộn ngang */
+    white-space: nowrap; /* Ngăn các mục xuống dòng */
+  }
+  
+  .menu-tag {
+    display: inline-block; /* Đảm bảo danh sách hiển thị ngang */
+    padding: 10px;
+    margin-top: 62px;
+    list-style: none;
+  }
+  
+  .button-menu-wrapper {
+    display: inline-block; /* Hiển thị các mục theo hàng ngang */
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .button-menu-wrapper > input[type="checkbox"]:checked + label {
+    padding: 10px 15px;
+    background-color: var(--color-primary);
   }
 
   .list-food-card-container {
@@ -49,21 +109,20 @@
   }
 
   .mobile-introduction-illustration {
-    max-width: 365px;
-    max-height: 365px;
-    justify-content: center;
-  }
-
-  .mobile-introduction-illustration > img {
     width: 100%;
+    height: auto;
   }
-
+  
   .mobile-app-introduction-container {
     flex-direction: column-reverse;
   }
 
-  .introduction-app-container {
-    width: 317px;
+    .introduction-app-heading ,
+    .introduction-app-content ,
+    .service-description-container,
+    .service-header ,
+    .service-description {
+    width: 100%;
   }
 
   .website-summary-container {
