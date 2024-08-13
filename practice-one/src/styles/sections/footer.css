@@ -41,6 +41,7 @@
 
 .company-information-wrapper {
   display: flex;
+  gap: 50px;
 }
 
 .company-information-heading {
