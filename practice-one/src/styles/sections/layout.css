@@ -1,9 +1,14 @@
 .container {
   margin-inline: auto;
   padding: 70px;
-  width: 1440px;
 }
 
 html, body {
   font-family: var(--font-family-primary);
+}
+
+@media (max-width: 429px) {
+  .container {
+    padding: 24px;    
+  }
 }
