@@ -25,3 +25,22 @@
   color: var(--color-dark);
   text-decoration: none;
 }
+
+.navbar-button {
+  display: none;
+}
+
+@media (max-width: 429px) {
+  .logo-company-container {
+    width: 97px;
+    height: 62px;
+  }
+  .navbar-button {
+    display: block;
+    border: none;
+    background-color: transparent;
+  }
+  .wrapper-navbar-container {
+    display: none;
+  }
+}
