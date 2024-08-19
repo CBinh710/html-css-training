@@ -59,11 +59,7 @@
     width: 97px;
     height: 62px;
   }
-
-  .header-container {
-    min-width: 428px;
-  }
-
+  
   .navbar-button {
     display: block;
     border: var(--hidden-display);
