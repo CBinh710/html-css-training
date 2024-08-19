@@ -1,3 +1,4 @@
+/* Style for desktop screen width = 1440px */
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -30,7 +31,30 @@
   display: none;
 }
 
-@media (max-width: 429px) {
+/* Style for desktop screen under 1300px*/
+@media (max-width: 1300px) {
+  .logo-company-container {
+    width: 97px;
+    height: 62px;
+  }
+
+  .navbar-container {
+    gap: 20px;
+  }
+
+  .navbar-container > li > a,
+  .button {
+    font-size: var(--font-size-small);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Style for desktop tablet and mobile screen */
+@media (max-width: 1024px) {
   .logo-company-container {
     width: 97px;
     height: 62px;
@@ -45,7 +69,7 @@
   .wrapper-navbar-container {
     display: none;
   }
-  
+
   img {
     width: 100%;
     height: auto;
