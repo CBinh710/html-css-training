@@ -66,6 +66,10 @@
     background-color: transparent;
   }
 
+  .navbar-button :hover {
+    cursor: pointer;
+  }
+
   .wrapper-navbar-container {
     display: var(--hidden-display);
   }
