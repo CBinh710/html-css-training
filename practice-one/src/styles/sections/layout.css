@@ -15,6 +15,8 @@ html, body {
 
 @media (max-width: 429px) {
   .container {
-    padding: 24px;    
+    padding: 24px;
+    min-width: 428px;    
   }
 }
+  

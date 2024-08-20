@@ -14,21 +14,21 @@
 .navbar-container {
   display: flex;
   gap: 50px;
-  list-style-type: none;
+  list-style-type: var(--hidden-display);
 }
 
 .navbar-container :hover {
   color: var(--color-primary);
 }
 
-.navbar-container > li > a {
+.nav-item {
   font-size: var(--font-size-large);
   color: var(--color-dark);
-  text-decoration: none;
+  text-decoration: var(--hidden-display);
 }
 
 .navbar-button {
-  display: none;
+  display: var(--hidden-display);
 }
 
 /* Style for desktop screen under 1300px*/
@@ -42,7 +42,7 @@
     gap: 20px;
   }
 
-  .navbar-container > li > a,
+  .nav-item,
   .button {
     font-size: var(--font-size-small);
   }
@@ -59,15 +59,19 @@
     width: 97px;
     height: 62px;
   }
-
+  
   .navbar-button {
     display: block;
-    border: none;
+    border: var(--hidden-display);
     background-color: transparent;
   }
 
+  .navbar-button :hover {
+    cursor: pointer;
+  }
+
   .wrapper-navbar-container {
-    display: none;
+    display: var(--hidden-display);
   }
 
   img {
