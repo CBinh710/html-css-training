@@ -1,6 +1,7 @@
 .container {
   margin-inline: auto;
   padding: 70px;
+  max-width: 1440px;
 }
 
 html, body {
