@@ -131,8 +131,8 @@
   }
 }
 
-/* Style for tablet screen max width 1024px*/
-@media (max-width: 1024px) {
+/* Style for tablet screen max width 768px*/
+@media (max-width: 768px) {
   .introduction-container {
     flex-direction: column-reverse;
   }
@@ -144,10 +144,6 @@
   .illustrate-image {
     width: 412px;
     height: 416px;
-  }
-
-  .search-container {
-    width: 85%;
   }
 }
 
