@@ -70,6 +70,11 @@
     flex-direction: column;
     margin: 0px;
   }
+
+  .service-description-container {
+    margin: 0px;
+    width: 100%;
+  }
 }
 
 /* Style for tablet screen max width 1024px*/
