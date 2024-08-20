@@ -24,6 +24,7 @@
 .special-offer-food-card {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
 }
 
 /*Style for desktop screen under 1300px*/
@@ -31,9 +32,13 @@
   .special-offer-food-card {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
   }
 
+  .special-offer-section {
+    margin-top: 174px;
+    margin-bottom: 120px;
+  }
+  
   .special-offer-content {
     padding: 0px;
   }
@@ -49,10 +54,6 @@
 
 /* Style for mobile screen max width 428px*/
 @media (max-width: 428px) {
-  .special-offer-section {
-    margin-top: 174px;
-    margin-bottom: 120px;
-  }
 
   .special-offer-content {
     padding: 0px;

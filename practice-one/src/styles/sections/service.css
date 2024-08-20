@@ -68,3 +68,32 @@
 .service > p {
   margin-left: 10px;
 }
+
+/*Style for desktop screen under 1300px*/
+@media (max-width: 1300px) {
+  .illustration-service-image {
+    width: 310px;
+    height: 345px;
+  }
+}
+
+/* Style for tablet screen max width 1024px*/
+@media (max-width: 1024px) {
+
+}
+
+/* Style for mobile screen max width 428px*/
+@media (max-width: 428px) {
+
+  .special-offer-content {
+    padding: 0px;
+  }
+
+  .special-offer-food-card {
+    flex-direction: column;
+  }
+
+  .food-card-wrapper {
+    justify-content: center;
+  }
+}
