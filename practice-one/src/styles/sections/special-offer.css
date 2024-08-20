@@ -34,33 +34,13 @@
     justify-content: center;
   }
 
-  .special-offer-section {
+  .special-offer-container {
     margin-top: 174px;
     margin-bottom: 120px;
   }
   
   .special-offer-content {
     padding: 0px;
-  }
-}
-
-/* Style for tablet screen max width 1024px*/
-@media (max-width: 1024px) {
-  .illustrate-image {
-    width: 412px;
-    height: 416px;
-  }
-}
-
-/* Style for mobile screen max width 428px*/
-@media (max-width: 428px) {
-
-  .special-offer-content {
-    padding: 0px;
-  }
-
-  .special-offer-food-card {
-    flex-direction: column;
   }
 
   .food-card-wrapper {

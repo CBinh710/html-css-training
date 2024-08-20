@@ -4,11 +4,6 @@
   margin-top: 200px;
 }
 
-.illustration-service-image {
-  width: 481px;
-  height: 538px;
-}
-
 .service-header {
   font-size: var(--font-size-sub-header);
   font-weight: 700;
@@ -71,29 +66,20 @@
 
 /*Style for desktop screen under 1300px*/
 @media (max-width: 1300px) {
-  .illustration-service-image {
-    width: 310px;
-    height: 345px;
+  .service-container {
+    flex-direction: column;
+    margin: 0px;
   }
 }
 
 /* Style for tablet screen max width 1024px*/
 @media (max-width: 1024px) {
-
-}
-
-/* Style for mobile screen max width 428px*/
-@media (max-width: 428px) {
-
-  .special-offer-content {
-    padding: 0px;
+  .illustration-service-image {
+    width: 310px;
+    height: 345px;
   }
 
-  .special-offer-food-card {
-    flex-direction: column;
-  }
-
-  .food-card-wrapper {
-    justify-content: center;
+  .service-list-wrapper {
+    grid-template-columns: 1fr;
   }
 }
