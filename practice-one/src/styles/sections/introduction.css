@@ -145,6 +145,11 @@
     width: 412px;
     height: 416px;
   }
+
+  .search-container {
+    width: 85%;
+}
+
 }
 
 @media (max-width: 428px) { 
