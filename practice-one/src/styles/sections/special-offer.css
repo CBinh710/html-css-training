@@ -24,4 +24,26 @@
 .special-offer-food-card {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
+}
+
+/*Style for desktop screen under 1300px*/
+@media (max-width: 1300px) {
+  .special-offer-food-card {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .special-offer-container {
+    margin-top: 174px;
+    margin-bottom: 120px;
+  }
+  
+  .special-offer-content {
+    padding: 0px;
+  }
+
+  .food-card-wrapper {
+    justify-content: center;
+  }
 }
