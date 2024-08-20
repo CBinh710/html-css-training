@@ -1,9 +1,21 @@
 .container {
   margin-inline: auto;
   padding: 70px;
-  width: 1440px;
 }
 
 html, body {
   font-family: var(--font-family-primary);
+}
+
+@media (max-width: 1360px) {
+  .container {
+    padding: 36px;    
+  }
+}
+
+@media (max-width: 429px) {
+  .container {
+    padding: 24px;
+    min-width: 428px;    
+  }
 }

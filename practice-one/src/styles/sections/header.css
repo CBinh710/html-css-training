@@ -1,3 +1,4 @@
+/* Style for desktop screen width = 1440px */
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -13,15 +14,68 @@
 .navbar-container {
   display: flex;
   gap: 50px;
-  list-style-type: none;
+  list-style-type: var(--hidden-display);
 }
 
 .navbar-container :hover {
   color: var(--color-primary);
 }
 
-.navbar-container > li > a {
+.nav-item {
   font-size: var(--font-size-large);
   color: var(--color-dark);
-  text-decoration: none;
+  text-decoration: var(--hidden-display);
+}
+
+.navbar-button {
+  display: var(--hidden-display);
+}
+
+/* Style for desktop screen under 1300px*/
+@media (max-width: 1300px) {
+  .logo-company-container {
+    width: 97px;
+    height: 62px;
+  }
+
+  .navbar-container {
+    gap: 20px;
+  }
+
+  .nav-item,
+  .button {
+    font-size: var(--font-size-small);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Style for desktop tablet and mobile screen */
+@media (max-width: 1024px) {
+  .logo-company-container {
+    width: 97px;
+    height: 62px;
+  }
+  
+  .navbar-button {
+    display: block;
+    border: var(--hidden-display);
+    background-color: transparent;
+  }
+
+  .navbar-button :hover {
+    cursor: pointer;
+  }
+
+  .wrapper-navbar-container {
+    display: var(--hidden-display);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
