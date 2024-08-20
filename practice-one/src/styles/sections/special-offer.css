@@ -28,31 +28,19 @@
 
 /*Style for desktop screen under 1300px*/
 @media (max-width: 1300px) {
-  .introduction-container {
-    gap: 0px;
-    align-items: center;
+  .special-offer-food-card {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
   }
 
-  .header-introduction {
-    font-size: var(--font-size-sub-header);
-  }
-
-  .para-introduction {
-    font-size: var(--font-size-xnormal);
-  }
-
-  .header-decor {
-    width: 260px;
-    margin-left: 155px;
+  .special-offer-content {
+    padding: 0px;
   }
 }
 
 /* Style for tablet screen max width 1024px*/
 @media (max-width: 1024px) {
-  .introduction-container {
-    flex-direction: column-reverse;
-  }
-
   .illustrate-image {
     width: 412px;
     height: 416px;
@@ -69,7 +57,7 @@
   .special-offer-content {
     padding: 0px;
   }
-  
+
   .special-offer-food-card {
     flex-direction: column;
   }

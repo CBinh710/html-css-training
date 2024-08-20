@@ -1,0 +1,177 @@
+/* 
+@media (max-width: 429px) {
+  .logo-company-container {
+    width: 97px;
+    height: 62px;
+  }
+
+  .container {
+    padding: 5%;
+  }
+
+  .introduction-container {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  .search-container {
+    padding-inline: 50px;
+    box-sizing: border-box;
+  }
+
+  .navbar-button {
+    display: block;
+    border: none;
+    background-color: transparent;
+  }
+
+  .search-white-icon {
+    left: 325px;
+  }
+
+  .wrapper-navbar-container,
+  .food-card-wrapper:nth-child(n+2) {
+    display: none;
+  }
+
+  .special-offer-food-card {
+    justify-content: center;
+  }
+
+  .service-container {
+    flex-direction: column;
+    margin: 0%;
+  }
+
+  .header-decor {
+    margin: 0%;
+    width: 270px;
+  }
+
+  .illustration-service-image {
+    max-width: 100%;
+    object-fit: cover;
+    width: 410px;
+    height: 410px;
+  }
+
+  .service-container,
+  .service-description-container {
+    margin: 0%;
+  }
+  
+  .special-offer-content,
+  .menu-heading {
+    padding-inline: 0%;
+  }
+
+  .service-list-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .button-menu-wrapper > label {
+    padding: 10px 15px;
+  }
+
+  .menu-tag-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .menu-tag {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 80px;
+    list-style: none;
+  }
+  
+  .button-menu-wrapper {
+    display: inline-block; 
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .button-menu-wrapper > input[type="checkbox"]:checked + label {
+    padding: 10px 15px;
+    background-color: var(--color-primary);
+  }
+
+  .list-food-card-container {
+    justify-content: center;
+  }
+
+  .mobile-introduction-illustration {
+    max-width: 365px;
+    max-height: 365px;
+    justify-content: center;
+  }
+  
+  .mobile-app-introduction-container {
+    flex-direction: column-reverse;
+  }
+
+  .introduction-app-heading ,
+  .introduction-app-content ,
+  .service-header ,
+  .service-description,
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .website-summary-container {
+    flex-direction: column;
+    gap: 30px;
+    width: 379px;
+  }
+
+  .company-information-wrapper {
+    gap: 80px;
+  }
+
+  .brief-description {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .social-media-icon > img {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  img {
+      width: 100%;
+      height: auto;
+  }
+}
+
+@media (min-width: 601px) {
+  img {
+      width: 50%;
+      height: auto;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container img {
+  flex: 1 1 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+.container img {
+  width: 100%;
+  height: auto;
+} */
