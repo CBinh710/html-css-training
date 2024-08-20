@@ -5,7 +5,6 @@
 }
 
 .introduction-app-heading {
-  width: 643px;
   font-size: var(--font-size-sub-header);
   font-weight: var(--font-weight-heading);
   line-height: var(--line-height-normal);
@@ -13,7 +12,6 @@
 
 .introduction-app-content {
   margin: 47px 0 42px 0;
-  width: 550px;
   line-height: var(--line-height-normal);
   color: var(--color-dark);
 }
@@ -40,4 +38,26 @@
 .mobile-introduction-illustration {
   width: 665px;
   height: 652px;
+}
+
+/* Style for tablet screen max width 1300px*/
+@media (max-width: 1300px) {
+  .mobile-app-introduction-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 167px;
+  }
+}
+
+/* Style for tablet and mobile screen max width 1024px*/
+@media (max-width: 1024px) {
+  .mobile-introduction-illustration {
+    width: 365px;
+    height: 365px;
+  }
+
+  .introduction-app-container {
+    width: 100%;
+  }
 }

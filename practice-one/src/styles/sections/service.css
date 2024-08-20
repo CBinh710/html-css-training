@@ -70,6 +70,9 @@
     flex-direction: column;
     margin: 0px;
   }
+  .service-header {
+    width: auto;
+  }
 
   .service-description-container {
     margin: 0px;
