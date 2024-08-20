@@ -25,3 +25,56 @@
   display: flex;
   justify-content: space-between;
 }
+
+/*Style for desktop screen under 1300px*/
+@media (max-width: 1300px) {
+  .introduction-container {
+    gap: 0px;
+    align-items: center;
+  }
+
+  .header-introduction {
+    font-size: var(--font-size-sub-header);
+  }
+
+  .para-introduction {
+    font-size: var(--font-size-xnormal);
+  }
+
+  .header-decor {
+    width: 260px;
+    margin-left: 155px;
+  }
+}
+
+/* Style for tablet screen max width 1024px*/
+@media (max-width: 1024px) {
+  .introduction-container {
+    flex-direction: column-reverse;
+  }
+
+  .illustrate-image {
+    width: 412px;
+    height: 416px;
+  }
+}
+
+/* Style for mobile screen max width 428px*/
+@media (max-width: 428px) {
+  .special-offer-section {
+    margin-top: 174px;
+    margin-bottom: 120px;
+  }
+
+  .special-offer-content {
+    padding: 0px;
+  }
+  
+  .special-offer-food-card {
+    flex-direction: column;
+  }
+
+  .food-card-wrapper {
+    justify-content: center;
+  }
+}
