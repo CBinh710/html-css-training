@@ -111,7 +111,7 @@
 }
 
 /* Style for tablet screen max width 768px */
-@media (max-width: 48rem) { /* 768px */
+@media (max-width: 768px) { /* 768px */
   .introduction-container {
     flex-direction: column-reverse;
   }
