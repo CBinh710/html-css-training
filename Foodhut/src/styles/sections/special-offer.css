@@ -1,10 +1,10 @@
 .special-offer-container {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .illustration-service-image {
-  width: 510px;
-  height: 562px;
+  width: 31.875rem;
+  height: 35.125rem;
 }
 
 .special-offer-heading {
@@ -17,30 +17,30 @@
 .special-offer-content {
   font-size: var(--font-size-normal);
   text-align: center;
-  padding: 0 200px;
-  margin: 22px 0;
+  padding: 0 12.5rem;
+  margin: 1.375rem 0;
 }
 
 .special-offer-food-card {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  gap: 0.625rem;
+  flex-wrap: wrap;
 }
 
-/*Style for desktop screen under 1300px*/
-@media (max-width: 1300px) {
+/* Style for tablet and mobile screen under 768px */
+@media (max-width: 48rem) { /* 768px */
   .special-offer-food-card {
-    flex-wrap: wrap;
     justify-content: center;
   }
 
   .special-offer-container {
-    margin-top: 174px;
-    margin-bottom: 120px;
+    margin-top: 10.875rem;
+    margin-bottom: 7.5rem;
   }
   
   .special-offer-content {
-    padding: 0px;
+    padding: 0;
   }
 
   .food-card-wrapper {
