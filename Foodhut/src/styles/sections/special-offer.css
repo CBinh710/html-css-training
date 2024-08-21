@@ -28,8 +28,8 @@
   flex-wrap: wrap;
 }
 
-/* Style for tablet and mobile screen under 768px */
-@media (max-width: 48rem) { /* 768px */
+/* Style for tablet and mobile screen under 48rem */
+@media (max-width: 48rem) {
   .special-offer-food-card {
     justify-content: center;
   }
