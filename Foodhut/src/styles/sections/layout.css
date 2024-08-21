@@ -1,22 +1,27 @@
 .container {
   margin-inline: auto;
-  padding: 70px;
-  max-width: 1440px;
+  padding: 4.375rem;
+  max-width: 90rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 html, body {
   font-family: var(--font-family-primary);
 }
 
-@media (max-width: 1360px) {
+@media (max-width: 85rem) { 
   .container {
-    padding: 36px;    
+    padding: 2.25rem;
   }
 }
 
-@media (max-width: 429px) {
+@media (max-width: 26.8125rem) {
   .container {
-    padding: 24px;
-    min-width: 428px;    
+    padding: 1.5rem;
+    min-width: 26.75rem;
   }
 }
