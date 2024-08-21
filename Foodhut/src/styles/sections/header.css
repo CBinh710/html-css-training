@@ -54,7 +54,7 @@
 }
 
 /* Style for desktop tablet and mobile screen */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .logo-company-container {
     width: 97px;
     height: 62px;
