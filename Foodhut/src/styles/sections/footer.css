@@ -1,16 +1,16 @@
 .footer-container {
-  margin-top: 158px;
+  margin-top: 9.88rem;
 }
 
 .website-summary-container {
   display: flex;
   justify-content: space-between;
+  gap: 3.13rem;
+  flex-wrap: wrap;
 }
 
 .brief-description {
-  width: 325px;
-  padding-left: 56px;
-  margin-right: 109px;
+  width: 20.31rem;
 }
 
 .brief-heading {
@@ -21,8 +21,8 @@
 }
 
 .brief-content {
-  margin-top: 10px;
-  margin-bottom: 23px;
+  margin-top: 0.63rem;
+  margin-bottom: 1.44rem;
   font-size: var(--font-size-normal);
 }
 
@@ -30,12 +30,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100px;
+  width: 6.25rem;
 }
 
 .social-media-icon {
-  width: 20px;
-  height: 20px;
   cursor: pointer;
 }
 
@@ -46,7 +44,7 @@
 }
 
 .company-information-item {
-  margin-top: 14px;
+  margin-top: 0.88rem;
 }
 
 .company-information-item > a {
@@ -56,7 +54,7 @@
 }
 
 .subscribe-form {
-  width: 379px;
+  width: 23.69rem;
 }
 
 .subscribe-heading {
@@ -67,15 +65,15 @@
 
 .subscribe-content {
   line-height: var(--line-height-normal);
-  margin: 37px 0 27px 0;
+  margin: 2.31rem 0 1.69rem 0;
   font-size: var(--font-size-normal);
 }
 
 .subscribe-input > input[type="text"] {
-  width: 205px;
-  height: 50px;
-  border-radius: 38px;
-  padding-left: 20px;
+  width: 12.81rem;
+  height: 3.13rem;
+  border-radius: 2.38rem;
+  padding-left: 1.25rem;
   background: var(--color-neutral);
   border: none;
 }
@@ -84,7 +82,29 @@
   font-size: var(--font-size-ex-small);
 }
 
-.copyright {
+.footer-copyright {
   text-align: center;
-  margin-top: 95px;
+  margin-top: 5.94rem;
+}
+
+.company-information-wrapper {
+  display: flex;
+  gap: 3.13rem;
+}
+
+/* Style for tablet and mobile screen */
+@media (max-width: 768px) {
+  .brief-description {
+    margin: 0;
+    padding: 0;
+  }
+
+  .subscribe-form {
+    max-width: 23.69rem;
+  }
+
+  .website-summary-container {
+    justify-content: flex-start;
+    gap: 4.38rem;
+  }
 }
