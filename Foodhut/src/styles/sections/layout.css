@@ -4,6 +4,10 @@
   max-width: 90rem;
 }
 
+p {
+  color: var(--color-dark);
+}
+
 img {
   width: 100%;
   height: auto;
