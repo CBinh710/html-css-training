@@ -3,45 +3,90 @@
   font-weight: var(--font-weight-heading);
   line-height: var(--line-height-normal);
   text-align: center;
-  padding-inline: 394px;
-  margin-top: 200px;
+  padding-inline: 22%;
+  margin-top: 12.5rem;
 }
 
 .button-menu-wrapper {
-  margin: 50px 0;
+  margin: 3.125rem 0;
 }
 
 .button-menu-wrapper > input[type="checkbox"] {
-  display: none;
+  display: var(--hidden-display);
 }
 
-.button-menu-wrapper > label {
+.menu-button-label {
   cursor: pointer;
   border: solid;
   border-radius: 100px;
-  padding: 15px 25px;
+  padding: 0.9375rem 1.5625rem;
   font-size: var(--font-size-normal);
   color: var(--color-dark);
 }
 
-.button-menu-wrapper > input[type="checkbox"]:checked + label {
+input[type="checkbox"]:checked + .menu-button-label {
   color: var(--color-light);
   border: solid var(--color-primary);
   border-radius: 100px;
-  padding: 15px 25px;
+  padding: 0.9375rem 1.5625rem;
   background-color: var(--color-primary);
+
 }
 
 .menu-tag {
   display: flex;
   justify-content: space-around;
-  padding-inline: 150px;
-  margin-top: 50px;
+  gap: 1.25rem;
+  margin-top: 3.125rem;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 .list-food-card-container {
   display: grid;
-  grid-template-columns: repeat(4, auto);
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 3.125rem;
+  grid-template-columns: repeat(auto-fit, minmax(19.375rem, 1fr));
+  gap: 0.625rem;
+  grid-auto-flow: dense;
+}
+
+/* Style for tablet screen max width 768px */
+@media (max-width: 768px) {
+  .menu-button-label {
+    padding: 0.625rem 0.9375rem;
+  }
+
+  .menu-heading {
+    padding-inline: 0;
+  }
+
+  .menu-tag {
+    display: flex;
+    padding: 0;
+  }
+  
+  .button-menu-wrapper {
+    padding: 0.625rem;
+    margin: 0.3125rem;
+  }
+  
+  .button-menu-wrapper > input[type="checkbox"]:checked + .menu-button-label {
+    padding: 0.625rem 0.9375rem;
+  }
+
+  .food-card-wrapper:nth-child(n+5) {
+    display: none;
+  }
+
+  .menu-tag {
+    gap: 0;
+  }
+}
+
+@media (max-width: 428px) {
+  .menu-heading {
+    padding-inline: 0;
+    margin-top: 7.5rem;
+  }
 }
