@@ -1,19 +1,22 @@
 .mobile-app-introduction-container {
   display: flex;
-  margin-top: 229px;
+  margin-top: 14.31rem;
   justify-content: space-between;
+  gap: 6.25rem;
+}
+
+.introduction-app-container {
+  width: 50%;
 }
 
 .introduction-app-heading {
-  width: 643px;
   font-size: var(--font-size-sub-header);
   font-weight: var(--font-weight-heading);
   line-height: var(--line-height-normal);
 }
 
 .introduction-app-content {
-  margin: 47px 0 42px 0;
-  width: 550px;
+  margin: 2.94rem 0 2.63rem 0;
   line-height: var(--line-height-normal);
   color: var(--color-dark);
 }
@@ -23,21 +26,39 @@
 }
 
 .play-store {
-  width: 135px;
-  height: 40px;
+  width: 8.44rem;
+  height: 2.5rem;
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
 
 .app-store {
-  margin-left: 27px;
+  margin-left: 1.69rem;
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
 
 .mobile-introduction-illustration {
-  width: 665px;
-  height: 652px;
+  width: 35.63rem;
+  height: 35.63rem;
+}
+
+/* Style for tablet and mobile screen*/
+@media (max-width: 768px) {
+  .mobile-introduction-illustration {
+    width: 22.81rem;
+    height: 22.81rem;
+  }
+
+  .introduction-app-container {
+    width: 100%;
+  }
+
+  .mobile-app-introduction-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 6.25rem 0 10.44rem 0;
+  }
 }
