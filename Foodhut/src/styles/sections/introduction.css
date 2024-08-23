@@ -6,6 +6,10 @@
 
 .introduction-content-container {
   width: 50%;
+  margin-top: 70px;
+}
+.people-trust-text {
+  font-family: var(--font-family-third);
 }
 
 .people-trust-icon-wrapper {

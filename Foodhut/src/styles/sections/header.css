@@ -3,11 +3,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 266px;
 }
 
 .wrapper-navbar-container {
   display: flex;
-  gap: 70px;
+  gap: 76px;
   align-items: center;
 }
 
@@ -22,7 +23,7 @@
 }
 
 .nav-item {
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-normal);
   color: var(--color-dark);
   text-decoration: var(--hidden-display);
 }
@@ -46,11 +47,6 @@
   .button {
     font-size: var(--font-size-small);
   }
-
-  img {
-    width: 100%;
-    height: auto;
-  }
 }
 
 /* Style for desktop tablet and mobile screen */
@@ -72,10 +68,5 @@
 
   .wrapper-navbar-container {
     display: var(--hidden-display);
-  }
-
-  img {
-    width: 100%;
-    height: auto;
   }
 }
