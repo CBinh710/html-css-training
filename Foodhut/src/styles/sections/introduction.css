@@ -1,22 +1,27 @@
 .introduction-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .introduction-content-container {
   width: 50%;
-  margin-top: 70px;
+  margin-top: 100px;
 }
+
 .people-trust-text {
   font-family: var(--font-family-third);
+  font-size: var(--font-size-ex-small);
+  font-weight: var(--font-weight-sub-heading);
+  color: var(--color-dark);
+  margin-left: 3px;
 }
 
 .people-trust-icon-wrapper {
   border-radius: 6.25rem;
   width: fit-content;
   gap: 0.3125rem; /* 5px */
-  padding: 0.3125rem; /* 5px */
+  margin-left: 0.3125rem; /* 5px */
+  padding: 4px 5px; /* 5px */
   background-color: var(--color-icon-wrapper);
 }
 
@@ -29,8 +34,9 @@
   font-family: var(--font-family-primary);
   font-size: var(--font-size-header);
   font-weight: 900;
-  margin-top: 3.125rem;
+  margin-top: 12px;
   max-width: 75%;
+  line-height: 1.32
 }
 
 .primary-color {
@@ -43,15 +49,17 @@
 
 .header-decor {
   margin-left: 12.125rem;
-  width: 17.5rem;
+  width: 263px;
+  height: 8px;
 }
 
 .para-introduction {
   font-family: var(--font-family-primary);
   font-size: var(--font-size-large);
-  margin: 2.0625rem 0;
+  margin: 29px 0;
   font-weight: 400;
   max-width: 75%;
+  line-height: 1.2;
 }
 
 .search-box-container {
@@ -59,7 +67,8 @@
   border: 0.03125rem solid;
   border-radius: 6.25rem;
   justify-content: space-between;
-  max-width: 63.7%;
+  max-width: 72.7%;
+  margin-top: 35px;
 }
 
 .search-container {
@@ -74,7 +83,7 @@
 }
 
 .search-black-icon {
-  padding: 0.9375rem;
+  padding: 15px 12px 15px 15px;
   top: 50%;
 }
 
@@ -90,9 +99,10 @@
 }
 
 .download-watch-video-wrapper {
-  display: flex;
   align-items: center;
-  margin-top: 1.5625rem;
+  margin-top: 9px;
+  display: flex;
+  gap: 9px;
 }
 
 .play-button {
@@ -119,7 +129,9 @@
 .illustrate-image {
   width: 638px;
   height: 657px;
+  margin-top: 32px;
 }
+
 @media (max-width: 1400px) { 
   .header-decor {
     margin-left: 0rem;
