@@ -8,7 +8,7 @@
 
 .wrapper-navbar-container {
   display: flex;
-  gap: 76px;
+  gap: 70px;
   align-items: center;
 }
 
@@ -55,7 +55,7 @@
     width: 97px;
     height: 62px;
   }
-  
+
   .navbar-button {
     display: block;
     border: var(--hidden-display);
