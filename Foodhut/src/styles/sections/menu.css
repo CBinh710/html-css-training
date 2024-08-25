@@ -4,7 +4,7 @@
   line-height: var(--line-height-normal);
   text-align: center;
   padding-inline: 22%;
-  margin-top: 12.5rem;
+  margin-top: 160px;
 }
 
 .button-menu-wrapper {
@@ -17,28 +17,28 @@
 
 .menu-button-label {
   cursor: pointer;
-  border: solid;
   border-radius: 100px;
-  padding: 0.9375rem 1.5625rem;
+  border: solid 0.5px var(--color-dark);
+  padding: 10px 20px;
   font-size: var(--font-size-normal);
-  color: var(--color-dark);
 }
 
 input[type="checkbox"]:checked + .menu-button-label {
   color: var(--color-light);
-  border: solid var(--color-primary);
+  border: solid 0.5px var(--color-primary);
   border-radius: 100px;
-  padding: 0.9375rem 1.5625rem;
+  padding: 10px 20px;
   background-color: var(--color-primary);
 }
 
 .menu-tag {
   display: flex;
-  justify-content: space-around;
-  gap: 0;
-  margin-top: 3.125rem;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 25px;
   overflow-x: auto;
   white-space: nowrap;
+  font-weight: normal;
 }
 
 .list-food-card-container {
@@ -56,12 +56,12 @@ input[type="checkbox"]:checked + .menu-button-label {
     padding-inline: 0;
     margin-top: 7.5rem;
   }
-  
+
   .button-menu-wrapper {
     padding: 0.625rem;
     margin: 0.3125rem;
   }
-  
+
   .menu-button-label,
   input[type="checkbox"]:checked + .menu-button-label {
     padding: 0.625rem 0.9375rem;
