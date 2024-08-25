@@ -1,5 +1,5 @@
 .special-offer-container {
-  margin-top: 130px;
+  margin-top: 146px;
 }
 
 .illustration-service-image {
@@ -18,7 +18,7 @@
   font-size: var(--font-size-normal);
   text-align: center;
   padding: 0 12.5rem;
-  margin: 1.375rem 0;
+  margin: 2.25rem 0;
 }
 
 .special-offer-food-card {
@@ -38,7 +38,7 @@
     margin-top: 10.875rem;
     margin-bottom: 7.5rem;
   }
-  
+
   .special-offer-content {
     padding: 0;
   }
