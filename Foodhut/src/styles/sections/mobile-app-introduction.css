@@ -1,13 +1,11 @@
 .mobile-app-introduction-container {
-  display: flex;
   margin-top: 14.31rem;
-  justify-content: space-between;
   gap: 6.25rem;
 }
 
 .introduction-app-container {
   width: 50%;
-  margin-top: 1.875rem; /* 30px */
+  margin-top: 1.875rem;
 }
 
 .introduction-app-heading {
@@ -17,15 +15,11 @@
 }
 
 .introduction-app-content {
-  margin: 3.75rem 0 2.5rem 0; /* 60px 0 40px 0 */
+  margin: 3.75rem 0 2.5rem 0;
   line-height: var(--line-height-normal);
   color: var(--color-dark);
   font-size: var(--font-size-normal);
-  padding-right: 4.25rem; /* 68px */
-}
-
-.app-icon {
-  display: flex;
+  padding-right: 4.25rem;
 }
 
 .play-store {

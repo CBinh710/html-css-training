@@ -3,8 +3,6 @@
 }
 
 .website-summary-container {
-  display: flex;
-  justify-content: space-between;
   gap: 3.13rem;
   flex-wrap: wrap;
 }
@@ -29,8 +27,6 @@
 }
 
 .brief-icon-container {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 6.25rem;
 }
@@ -90,7 +86,6 @@
 }
 
 .company-information-wrapper {
-  display: flex;
   gap: 3.13rem;
 }
 

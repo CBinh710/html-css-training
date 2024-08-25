@@ -4,7 +4,7 @@
   line-height: var(--line-height-normal);
   text-align: center;
   padding-inline: 22%;
-  margin-top: 10rem; /* 160px */
+  margin-top: 10rem;
 }
 
 .button-menu-wrapper {
@@ -19,7 +19,7 @@
   cursor: pointer;
   border-radius: 100px;
   border: solid 0.5px var(--color-dark);
-  padding: 0.625rem 1.25rem; /* 10px 20px */
+  padding: 0.625rem 1.25rem;
   font-size: var(--font-size-normal);
 }
 
@@ -27,15 +27,13 @@ input[type="checkbox"]:checked + .menu-button-label {
   color: var(--color-light);
   border: solid 0.5px var(--color-primary);
   border-radius: 100px;
-  padding: 0.625rem 1.25rem; /* 10px 20px */
+  padding: 0.625rem 1.25rem;
   background-color: var(--color-primary);
 }
 
 .menu-tag {
-  display: flex;
-  justify-content: center;
-  gap: 1.875rem; /* 30px */
-  margin-top: 1.5625rem; /* 25px */
+  gap: 1.875rem;
+  margin-top: 1.5625rem;
   overflow-x: auto;
   white-space: nowrap;
   font-weight: normal;

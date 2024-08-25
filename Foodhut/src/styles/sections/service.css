@@ -1,6 +1,4 @@
 .service-container {
-  display: flex;
-  align-items: center;
   margin-top: 20rem;
 }
 
@@ -33,7 +31,7 @@
 }
 
 .service {
-  display: flex;
+  justify-content: left;
   align-items: center;
   cursor: default;
 }

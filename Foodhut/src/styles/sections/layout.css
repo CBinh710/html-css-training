@@ -12,6 +12,24 @@ img {
   width: 100%;
   height: auto;
 }
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.primary-color {
+  color: var(--color-primary);
+}
+
+.accent-color {
+  color: var(--color-accent);
+}
 
 html, body {
   font-family: var(--font-family-primary);

@@ -22,8 +22,6 @@
 }
 
 .special-offer-food-card {
-  display: flex;
-  justify-content: space-between;
   gap: 0.625rem;
   flex-wrap: wrap;
 }
