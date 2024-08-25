@@ -1,6 +1,6 @@
 .container {
   margin-inline: auto;
-  padding: 32px 70px; 
+  padding: 2rem 4.375rem;
   max-width: 90rem;
 }
 
@@ -17,7 +17,7 @@ html, body {
   font-family: var(--font-family-primary);
 }
 
-@media (max-width: 85rem) { 
+@media (max-width: 85rem) {
   .container {
     padding: 2.25rem;
   }
