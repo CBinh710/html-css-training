@@ -25,7 +25,7 @@
 }
 
 .navbar-button {
-  display: var(--hidden-display);
+  display: none;
 }
 
 /* Style for desktop screen under 1300px*/

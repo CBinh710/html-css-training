@@ -12,7 +12,7 @@
 }
 
 .button-menu-wrapper > input[type="checkbox"] {
-  display: var(--hidden-display);
+  display: none;
 }
 
 .menu-button-label {
