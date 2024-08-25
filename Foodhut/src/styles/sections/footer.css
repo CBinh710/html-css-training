@@ -1,5 +1,5 @@
 .footer-container {
-  margin-top: 9.88rem;
+  margin-top: 264px;
 }
 
 .website-summary-container {
@@ -11,6 +11,8 @@
 
 .brief-description {
   width: 20.31rem;
+  padding-left: 68px;
+  line-height: 1.3;
 }
 
 .brief-heading {
@@ -70,7 +72,7 @@
 }
 
 .subscribe-input > input[type="text"] {
-  width: 12.81rem;
+  width: 183px;
   height: 3.13rem;
   border-radius: 2.38rem;
   padding-left: 1.25rem;
