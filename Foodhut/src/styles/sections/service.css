@@ -31,7 +31,6 @@
 }
 
 .service {
-  justify-content: left;
   align-items: center;
   cursor: default;
 }
@@ -67,6 +66,7 @@
 /* Style for tablet screen max width 768px */
 @media (max-width: 768px) {
   .service-container {
+    align-items: center;
     flex-direction: column;
     margin: 0;
   }
@@ -87,5 +87,9 @@
 
   .service-list-wrapper {
     grid-template-columns: 1fr;
+  }
+
+  .service-list-wrapper > .flex-between {
+    justify-content: left;
   }
 }

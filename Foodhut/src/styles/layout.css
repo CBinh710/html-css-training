@@ -12,16 +12,18 @@ img {
   width: 100%;
   height: auto;
 }
-.flex-center {
+
+.flex {
   display: flex;
+}
+
+.center {
   justify-content: center;
 }
 
-.flex-between {
-  display: flex;
+.between {
   justify-content: space-between;
 }
-
 
 .primary-color {
   color: var(--color-primary);

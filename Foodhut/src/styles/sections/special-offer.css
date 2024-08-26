@@ -22,16 +22,12 @@
 }
 
 .special-offer-food-card {
-  gap: 0.625rem;
+  gap: 1.25rem;
   flex-wrap: wrap;
 }
 
 /* Style for tablet and mobile screen under 768px */
 @media (max-width: 768px) {
-  .special-offer-food-card {
-    justify-content: center;
-  }
-
   .special-offer-container {
     margin-top: 10.875rem;
     margin-bottom: 7.5rem;
@@ -39,9 +35,5 @@
 
   .special-offer-content {
     padding: 0;
-  }
-
-  .food-card-wrapper {
-    justify-content: center;
   }
 }

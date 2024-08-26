@@ -92,7 +92,6 @@
 
 .download-watch-video-wrapper {
   align-items: center;
-  justify-content: left;
   margin-top: 0.5625rem;
   gap: 0.5625rem;
 }
@@ -135,6 +134,7 @@
   .introduction-container {
     flex-direction: column-reverse;
     gap: 5.125rem;
+    align-items: center;
   }
 
   .header-introduction {
@@ -153,9 +153,9 @@
     width: 100%;
   }
 
-  .search-box-container {
+  .search-box-container,
+  .introduction-content-container {
     max-width: 100%;
-    display: flex;
   }
 
   .header-decor {
@@ -170,7 +170,7 @@
 }
 
 /* Style for smartphone screen max width 428px */
-@media (max-width: 26.75rem) { /* 428px */
+@media (max-width: 428px) { /* 428px */
   .header-decor {
     margin: 0;
   }
@@ -182,6 +182,5 @@
 
   .search-box-container {
     max-width: 88.5%;
-    display: flex;
   }
 }

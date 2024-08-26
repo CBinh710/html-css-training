@@ -40,12 +40,11 @@ input[type="checkbox"]:checked + .menu-button-label {
 }
 
 .list-food-card-container {
-  display: grid;
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 3.125rem;
-  grid-template-columns: repeat(auto-fit, minmax(19.375rem, 1fr));
-  gap: 0.625rem;
-  grid-auto-flow: dense;
+  gap: 1.25rem;
 }
 
 /* Style for tablet screen and mobile screen max width 768px */

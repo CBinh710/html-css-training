@@ -101,7 +101,6 @@
   }
 
   .website-summary-container {
-    justify-content: flex-start;
     gap: 4.38rem;
   }
 }
