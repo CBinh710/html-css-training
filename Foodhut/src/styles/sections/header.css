@@ -7,6 +7,7 @@
 .wrapper-navbar-container {
   gap: 4.375rem;
   align-items: center;
+  display: flex;
 }
 
 .navbar-container {
@@ -47,11 +48,6 @@
 
 /* Style for desktop tablet and mobile screen */
 @media (max-width: 768px) {
-  .logo-company-container {
-    width: 6.0625rem;
-    height: 3.875rem;
-  }
-
   .navbar-button {
     display: block;
     border: none;
@@ -62,7 +58,7 @@
     cursor: pointer;
   }
 
-  .logo-company-container + .flex {
+  .wrapper-navbar-container {
     display: none;
   }
 }

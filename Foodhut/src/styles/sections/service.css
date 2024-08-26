@@ -27,7 +27,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1.875rem;
   margin-top: 1.875rem;
-  padding-right: 13.4375rem;
+  padding-right: 11.4375rem;
 }
 
 .service {
@@ -87,9 +87,5 @@
 
   .service-list-wrapper {
     grid-template-columns: 1fr;
-  }
-
-  .service-list-wrapper > .flex-between {
-    justify-content: left;
   }
 }
