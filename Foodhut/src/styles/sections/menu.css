@@ -42,7 +42,7 @@ input[type="checkbox"]:checked + .menu-button-label {
 .list-food-card-container {
   flex-wrap: wrap;
   margin-top: 50px;
-  gap: 20px;
+  gap: 14px;
 }
 
 /* Style for tablet screen and mobile screen max width 768px */
