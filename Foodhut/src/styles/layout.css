@@ -1,6 +1,6 @@
 .container {
   margin-inline: auto;
-  padding: 32px 70px;
+  padding: 32px 50px;
   max-width: 1440px;
 }
 
@@ -37,7 +37,6 @@ html, body {
   font-family: var(--font-family-primary);
 }
 
-/* Style for screen width under 1360px */
 @media (max-width: 1360px) {
   .container {
     padding: 36px;
