@@ -4,11 +4,11 @@
   line-height: var(--line-height-normal);
   text-align: center;
   padding-inline: 22%;
-  margin-top: 10rem;
+  margin-top: 160px;
 }
 
 .button-menu-wrapper {
-  margin: 3.125rem 0;
+  margin: 50px 0;
 }
 
 .button-menu-wrapper > input[type="checkbox"] {
@@ -19,7 +19,7 @@
   cursor: pointer;
   border-radius: 100px;
   border: solid 0.5px var(--color-dark);
-  padding: 0.625rem 1.25rem;
+  padding: 10px 20px;
   font-size: var(--font-size-normal);
 }
 
@@ -27,41 +27,39 @@ input[type="checkbox"]:checked + .menu-button-label {
   color: var(--color-light);
   border: solid 0.5px var(--color-primary);
   border-radius: 100px;
-  padding: 0.625rem 1.25rem;
+  padding: 10px 20px;
   background-color: var(--color-primary);
 }
 
 .menu-tag {
-  gap: 1.875rem;
-  margin-top: 1.5625rem;
+  gap: 30px;
+  margin-top: 25px;
   overflow-x: auto;
   white-space: nowrap;
   font-weight: normal;
 }
 
 .list-food-card-container {
-  display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  margin-top: 3.125rem;
-  gap: 1.25rem;
+  margin-top: 50px;
+  gap: 20px;
 }
 
 /* Style for tablet screen and mobile screen max width 768px */
 @media (max-width: 768px) {
   .menu-heading {
     padding-inline: 0;
-    margin-top: 7.5rem;
+    margin-top: 120px;
   }
 
   .button-menu-wrapper {
-    padding: 0.625rem;
-    margin: 0.3125rem;
+    padding: 10px;
+    margin: 5px;
   }
 
   .menu-button-label,
   input[type="checkbox"]:checked + .menu-button-label {
-    padding: 0.625rem 0.9375rem;
+    padding: 10px 15px;
   }
 
   .food-card-wrapper:nth-child(n+5) {

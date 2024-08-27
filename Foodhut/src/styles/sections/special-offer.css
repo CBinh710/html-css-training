@@ -1,10 +1,10 @@
 .special-offer-container {
-  margin-top: 9.125rem;
+  margin-top: 146px;
 }
 
 .illustration-service-image {
-  width: 31.875rem;
-  height: 35.125rem;
+  width: 510px;
+  height: 562px;
 }
 
 .special-offer-heading {
@@ -17,20 +17,20 @@
 .special-offer-content {
   font-size: var(--font-size-normal);
   text-align: center;
-  padding: 0 12.5rem;
-  margin: 2.25rem 0;
+  padding: 0 200px;
+  margin: 36px 0;
 }
 
 .special-offer-food-card {
-  gap: 1.25rem;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 /* Style for tablet and mobile screen under 768px */
 @media (max-width: 768px) {
   .special-offer-container {
-    margin-top: 10.875rem;
-    margin-bottom: 7.5rem;
+    margin-top: 174px;
+    margin-bottom: 120px;
   }
 
   .special-offer-content {

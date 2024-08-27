@@ -1,7 +1,7 @@
 .container {
   margin-inline: auto;
-  padding: 2rem 4.375rem;
-  max-width: 90rem;
+  padding: 32px 70px;
+  max-width: 1440px;
 }
 
 p {
@@ -37,15 +37,17 @@ html, body {
   font-family: var(--font-family-primary);
 }
 
-@media (max-width: 85rem) {
+/* Style for screen width under 1360px */
+@media (max-width: 1360px) {
   .container {
-    padding: 2.25rem;
+    padding: 36px;
   }
 }
 
-@media (max-width: 26.8125rem) {
+/* Style for screen width under 429px */
+@media (max-width: 429px) {
   .container {
-    padding: 1.5rem;
-    min-width: 26.75rem;
+    padding: 24px;
+    min-width: 428px;
   }
 }
