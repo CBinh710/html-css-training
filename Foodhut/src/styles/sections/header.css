@@ -1,11 +1,10 @@
 /* Style for desktop screen width = 1440px */
 .header-container {
   align-items: center;
-  gap: 266px;
 }
 
 .wrapper-navbar-container {
-  gap: 70px;
+  gap: 88px;
   align-items: center;
   display: flex;
 }
@@ -29,11 +28,15 @@
   display: none;
 }
 
-/* Style for desktop screen under 1300px */
-@media (max-width: 1300px) {
+/* Style for desktop screen under 1440px */
+@media (max-width: 1440px) {
   .logo-company-container {
     width: 97px;
     height: 62px;
+  }
+
+  .header-container {
+    gap: auto;
   }
 
   .navbar-container {
@@ -46,8 +49,9 @@
   }
 }
 
+
 /* Style for desktop tablet and mobile screen */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .navbar-button {
     display: block;
     border: none;

@@ -89,6 +89,12 @@
   gap: 50.08px;
 }
 
+.subscribe-input > button {
+  font-size: 14px;
+  font-weight: var(--font-weight-medium);
+  padding: 17px 27px;
+}
+
 /* Style for tablet and mobile screen */
 @media (max-width: 768px) {
   .brief-description {

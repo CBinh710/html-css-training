@@ -3,7 +3,7 @@
   font-weight: var(--font-weight-heading);
   line-height: var(--line-height-normal);
   text-align: center;
-  padding-inline: 22%;
+  padding-inline: 25%;
   margin-top: 160px;
 }
 
@@ -21,6 +21,7 @@
   border: solid 0.5px var(--color-dark);
   padding: 10px 20px;
   font-size: var(--font-size-normal);
+  opacity: 60%;
 }
 
 input[type="checkbox"]:checked + .menu-button-label {
@@ -42,7 +43,7 @@ input[type="checkbox"]:checked + .menu-button-label {
 .list-food-card-container {
   flex-wrap: wrap;
   margin-top: 50px;
-  gap: 14px;
+  gap: 11px;
 }
 
 /* Style for tablet screen and mobile screen max width 768px */
