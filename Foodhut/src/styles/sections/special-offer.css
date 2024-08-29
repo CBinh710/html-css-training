@@ -35,6 +35,10 @@
     margin-bottom: 120px;
   }
 
+  .special-offer-content + .between {
+    justify-content: center;
+  }
+
   .special-offer-content {
     padding: 0;
   }

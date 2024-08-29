@@ -30,11 +30,6 @@
 
 /* Style for desktop screen under 1440px */
 @media (max-width: 1440px) {
-  .logo-company-container {
-    width: 97px;
-    height: 62px;
-  }
-
   .header-container {
     gap: auto;
   }
@@ -50,6 +45,11 @@
 }
 /* Style for desktop tablet and mobile screen */
 @media (max-width: 1000px) {
+  .logo-company-container {
+    width: 97px;
+    height: 62px;
+  }
+  
   .navbar-button {
     display: block;
     border: none;

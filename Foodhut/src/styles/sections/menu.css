@@ -62,6 +62,10 @@ input[type="checkbox"]:checked + .menu-button-label {
     margin: 5px;
   }
 
+  .menu-tag + .between {
+    justify-content: center;
+  }
+
   .menu-button-label,
   input[type="checkbox"]:checked + .menu-button-label {
     padding: 10px 15px;
