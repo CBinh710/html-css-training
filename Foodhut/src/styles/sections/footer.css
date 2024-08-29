@@ -95,13 +95,14 @@
   padding: 17px 27px;
 }
 
-/* Style for tablet and mobile screen */
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
   .brief-description {
     margin: 0;
     padding: 0;
   }
-
+}
+/* Style for tablet and mobile screen */
+@media (max-width: 768px) {
   .subscribe-form {
     max-width: 379.04px;
   }

@@ -35,7 +35,7 @@ input[type="checkbox"]:checked + .menu-button-label {
 .menu-tag {
   gap: 30px;
   margin-top: 25px;
-  overflow-x: auto;
+  overflow-x: scroll;
   white-space: nowrap;
   font-weight: normal;
 }
@@ -45,7 +45,11 @@ input[type="checkbox"]:checked + .menu-button-label {
   margin-top: 50px;
   gap: 11px;
 }
-
+@media (max-width: 1150px) {
+  .menu-heading + .center {
+    justify-content: flex-start;
+  }  
+}
 /* Style for tablet screen and mobile screen max width 768px */
 @media (max-width: 768px) {
   .menu-heading {
