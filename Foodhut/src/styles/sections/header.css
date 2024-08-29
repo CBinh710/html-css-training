@@ -48,8 +48,6 @@
     font-size: var(--font-size-small);
   }
 }
-
-
 /* Style for desktop tablet and mobile screen */
 @media (max-width: 1000px) {
   .navbar-button {
