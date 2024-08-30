@@ -14,7 +14,7 @@
   right: 50%;
   transform: translate(50%, -50%);
   padding: 25px;
-  background: linear-gradient(0deg, rgba(245, 71, 72, 0) 57.72%, #FDC55E 112.46%);
+  background: var(--color-gradient-warm);
 }
 
 .food-card-image {
@@ -69,13 +69,11 @@
 
 .food-rating div:nth-child(2) {
   position: absolute;
-  z-index: -1;
   left: 95px;
 }
 
 .food-rating div:nth-child(3) {
   position: absolute;
-  z-index: -2;
   left: 75px;
 }
 
