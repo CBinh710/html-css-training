@@ -40,6 +40,14 @@ input[type="checkbox"]:checked + .menu-button-label {
   font-weight: normal;
 }
 
+.menu-tag::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-tag::-webkit-scrollbar:hover {
+  cursor: pointer;
+}
+
 .list-food-card-container {
   flex-wrap: wrap;
   margin-top: 50px;
