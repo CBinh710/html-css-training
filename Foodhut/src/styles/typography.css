@@ -1,36 +1,36 @@
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
-    src: local('Sofia Pro Regular'), url('/src/assets/font/sofia/Sofia-Pro-Regular.woff') format('woff');
+    src: local('Roboto Regular'), url('../assets/font/roboto/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
-    src: local('Sofia Pro Black'), url('/src/assets/font/sofia/Sofia-Pro-Black.woff') format('woff');
+    src: local('Roboto Black'), url('../assets/font/roboto/Roboto-Black.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    src: local('Sofia Pro Medium'), url('/src/assets/font/sofia/Sofia-Pro-Medium.woff') format('woff');
+    src: local('Roboto Medium'), url('/src/assets/font/roboto/Roboto-Medium.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
-    src: local('Sofia Pro Semi Bold'), url('/src/assets/font/sofia/Sofia-Pro-Semi-Bold.woff') format('woff');
+    src: local('Roboto Semi Bold'), url('/src/assets/font/roboto/Roboto-BoldCondensed.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Sofia Pro Bold';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
-    src: local('Sofia Pro Bold'), url('/src/assets/font/sofia/Sofia-Pro-Bold.woff') format('woff');
+    src: local('Roboto Bold'), url('../assets/font/roboto/Roboto-Bold.ttf') format('truetype');
 }
 
 @font-face {

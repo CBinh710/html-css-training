@@ -4,12 +4,12 @@
   --color-icon-wrapper: #FEE5E5;
   --color-accent: #FDC55E;
   --color-light: #FFFFFF;
-  --color-neutral: #C4C4C4;
+  --color-neutral: #E8E8E8;
   --color-warning: #FFB800;
-  --color-gradient-warm: linear-gradient(0deg, rgba(245, 71, 72, 0) 57.72%, #FDC55E 112.46%);
-  --color-gradient-strong: linear-gradient(179.69deg, rgba(255, 255, 255, 0), #F54748 303.75%);
-  --font-family-primary: 'Sofia Pro';
+  --color-gradient-warm: linear-gradient(0deg, #fff 50.72%, #F54748 123%);  --color-gradient-strong: linear-gradient(179.69deg,#fff 30%, #F54748 400.75%);
+  --font-family-primary: 'Roboto';
   --font-family-secondary: 'Poppins';
+  --font-family-third: 'Inter Regular';
   --font-size-ex-small: 0.875rem;
   --font-size-small: 1rem;
   --font-size-normal: 1.125rem;
@@ -20,6 +20,6 @@
   --font-size-sub-header: 3rem;
   --font-weight-heading: 700;
   --font-weight-sub-heading: 600;
+  --font-weight-medium: 500;
   --line-height-normal: 1.3;
-  --hidden-display: none;
 }

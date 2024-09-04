@@ -1,44 +1,43 @@
 <footer class="footer-container">
-  <div class="website-summary-container">
+  <div class="website-summary-container flex between">
     <div class="brief-description">
       <h3 class="brief-heading">Foodhut</h3>
       <p class="brief-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
-      <div class="brief-icon-container">
+      <div class="brief-icon-container flex between">
         <div class="social-media-icon"><img src="./assets/images/facebook.svg" alt="Facebook icon"></div>
         <div class="social-media-icon"><img src="./assets/images/instagram.svg" alt="Instagram icon"></div>
         <div class="social-media-icon"><img src="./assets/images/twitter.svg" alt="Twitter icon"></div>
       </div>
     </div>
+    <div class="company-information-wrapper flex">
+      <div class="company-information-container">
+        <h3 class="company-information-heading">About Us</h3>
+        <ul class="company-information-list">
+          <li class="company-information-item"><a href="#">About Us</a></li>
+          <li class="company-information-item"><a href="#">Service Us</a></li>
+          <li class="company-information-item"><a href="#">Contact</a></li>
+          <li class="company-information-item"><a href="#">Company</a></li>
+        </ul>
+      </div>
 
-    <div class="company-information-container">
-      <h3 class="company-information-heading">About Us</h3>
-      <ul class="company-information-list">
-        <li class="company-information-item"><a href="#">About Us</a></li>
-        <li class="company-information-item"><a href="#">Service Us</a></li>
-        <li class="company-information-item"><a href="#">Contact</a></li>
-        <li class="company-information-item"><a href="#">Company</a></li>
-      </ul>
+      <div class="company-information-container">
+        <h3 class="company-information-heading">Company</h3>
+        <ul class="company-information-list">
+          <li class="company-information-item"><a href="#">Partnership</a></li>
+          <li class="company-information-item"><a href="#">Terms of Use</a></li>
+          <li class="company-information-item"><a href="#">Privacy</a></li>
+          <li class="company-information-item"><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
     </div>
-
-    <div class="company-information-container">
-      <h3 class="company-information-heading">Company</h3>
-      <ul class="company-information-list">
-        <li class="company-information-item"><a href="#">Partnership</a></li>
-        <li class="company-information-item"><a href="#">Terms of Use</a></li>
-        <li class="company-information-item"><a href="#">Privacy</a></li>
-        <li class="company-information-item"><a href="#">Sitemap</a></li>
-      </ul>
-    </div>
-
     <form class="subscribe-form">
       <h3 class="subscribe-heading">Get in touch</h3>
       <p class="subscribe-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
       <div class="subscribe-input">
         <input type="text" placeholder="Email">
-        <button class="button" type="submit">Subscribe</button>
+        <include src="./components/button.html" locals='{"text": "Subcribe"}'></include>
       </div>
     </form>
-
   </div>
   <p class="footer-copyright">Copyright © 2022 Foodhut.</p>
 </footer>

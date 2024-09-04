@@ -1,0 +1,52 @@
+.container {
+  margin-inline: auto;
+  padding: 32px 70px;
+  max-width: 1440px;
+}
+
+p {
+  color: var(--color-dark);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.primary-color {
+  color: var(--color-primary);
+}
+
+.accent-color {
+  color: var(--color-accent);
+}
+
+html, body {
+  font-family: var(--font-family-primary);
+}
+
+@media (max-width: 1360px) {
+  .container {
+    padding: 36px;
+  }
+}
+
+/* Style for screen width under 429px */
+@media (max-width: 429px) {
+  .container {
+    padding: 24px;
+    min-width: 428px;
+  }
+}

@@ -1,16 +1,16 @@
 .footer-container {
-  margin-top: 9.88rem;
+  margin-top: 264px;
 }
 
 .website-summary-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 3.13rem;
+  gap: 50.08px;
   flex-wrap: wrap;
 }
 
 .brief-description {
-  width: 20.31rem;
+  width: 324.96px;
+  padding-left: 68px;
+  line-height: 1.3;
 }
 
 .brief-heading {
@@ -21,16 +21,14 @@
 }
 
 .brief-content {
-  margin-top: 0.63rem;
-  margin-bottom: 1.44rem;
+  margin-top: 10.08px;
+  margin-bottom: 23.04px;
   font-size: var(--font-size-normal);
 }
 
 .brief-icon-container {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 6.25rem;
+  width: 100px;
 }
 
 .social-media-icon {
@@ -44,7 +42,7 @@
 }
 
 .company-information-item {
-  margin-top: 0.88rem;
+  margin-top: 14.08px;
 }
 
 .company-information-item > a {
@@ -54,7 +52,7 @@
 }
 
 .subscribe-form {
-  width: 23.69rem;
+  width: 379.04px;
 }
 
 .subscribe-heading {
@@ -65,15 +63,15 @@
 
 .subscribe-content {
   line-height: var(--line-height-normal);
-  margin: 2.31rem 0 1.69rem 0;
+  margin: 36.96px 0 27.04px 0;
   font-size: var(--font-size-normal);
 }
 
 .subscribe-input > input[type="text"] {
-  width: 12.81rem;
-  height: 3.13rem;
-  border-radius: 2.38rem;
-  padding-left: 1.25rem;
+  width: 183px; 
+  height: 50.08px; 
+  border-radius: 38.08px; 
+  padding-left: 20px;
   background: var(--color-neutral);
   border: none;
 }
@@ -84,27 +82,32 @@
 
 .footer-copyright {
   text-align: center;
-  margin-top: 5.94rem;
+  margin-top: 95.04px;
 }
 
 .company-information-wrapper {
-  display: flex;
-  gap: 3.13rem;
+  gap: 50.08px;
 }
 
-/* Style for tablet and mobile screen */
-@media (max-width: 768px) {
+.subscribe-input > button {
+  font-size: 14px;
+  font-weight: var(--font-weight-medium);
+  padding: 17px 27px;
+}
+
+@media (max-width: 1400px) {
   .brief-description {
     margin: 0;
     padding: 0;
   }
-
+}
+/* Style for tablet and mobile screen */
+@media (max-width: 768px) {
   .subscribe-form {
-    max-width: 23.69rem;
+    max-width: 379.04px;
   }
 
   .website-summary-container {
-    justify-content: flex-start;
-    gap: 4.38rem;
+    gap: 70.08px;
   }
 }

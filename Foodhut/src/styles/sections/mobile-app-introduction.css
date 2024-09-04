@@ -1,8 +1,6 @@
 .mobile-app-introduction-container {
-  display: flex;
-  margin-top: 14.31rem;
-  justify-content: space-between;
-  gap: 6.25rem;
+  margin-top: 229px;
+  gap: 100px;
 }
 
 .introduction-app-container {
@@ -16,40 +14,36 @@
 }
 
 .introduction-app-content {
-  margin: 2.94rem 0 2.63rem 0;
+  margin: 47px 0 42px 0;
   line-height: var(--line-height-normal);
   color: var(--color-dark);
 }
 
-.app-icon {
-  display: flex;
-}
-
 .play-store {
-  width: 8.44rem;
-  height: 2.5rem;
+  width: 135px;
+  height: 40px;
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
 
 .app-store {
-  margin-left: 1.69rem;
+  margin-left: 27px;
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
 
 .mobile-introduction-illustration {
-  width: 35.63rem;
-  height: 35.63rem;
+  width: 570px;
+  height: 570px;
 }
 
 /* Style for tablet and mobile screen*/
 @media (max-width: 768px) {
   .mobile-introduction-illustration {
-    width: 22.81rem;
-    height: 22.81rem;
+    width: 365px;
+    height: 365px;
   }
 
   .introduction-app-container {
@@ -59,6 +53,6 @@
   .mobile-app-introduction-container {
     flex-direction: column-reverse;
     align-items: center;
-    margin: 6.25rem 0 10.44rem 0;
+    margin: 100px 0 167px 0;
   }
 }

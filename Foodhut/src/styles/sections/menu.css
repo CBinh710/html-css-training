@@ -3,68 +3,80 @@
   font-weight: var(--font-weight-heading);
   line-height: var(--line-height-normal);
   text-align: center;
-  padding-inline: 22%;
-  margin-top: 12.5rem;
+  padding-inline: 25%;
+  margin-top: 160px;
 }
 
 .button-menu-wrapper {
-  margin: 3.125rem 0;
+  margin: 50px 0;
 }
 
 .button-menu-wrapper > input[type="checkbox"] {
-  display: var(--hidden-display);
+  display: none;
 }
 
 .menu-button-label {
   cursor: pointer;
-  border: solid;
   border-radius: 100px;
-  padding: 0.9375rem 1.5625rem;
+  border: solid 0.5px var(--color-dark);
+  padding: 10px 20px;
   font-size: var(--font-size-normal);
-  color: var(--color-dark);
+  opacity: 60%;
 }
 
 input[type="checkbox"]:checked + .menu-button-label {
   color: var(--color-light);
-  border: solid var(--color-primary);
+  border: solid 0.5px var(--color-primary);
   border-radius: 100px;
-  padding: 0.9375rem 1.5625rem;
+  padding: 10px 20px;
   background-color: var(--color-primary);
 }
 
 .menu-tag {
-  display: flex;
-  justify-content: space-around;
-  gap: 0;
-  margin-top: 3.125rem;
-  overflow-x: auto;
+  gap: 30px;
+  margin-top: 25px;
+  overflow-x: scroll;
   white-space: nowrap;
+  font-weight: normal;
+}
+
+.menu-tag::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-tag::-webkit-scrollbar:hover {
+  cursor: pointer;
 }
 
 .list-food-card-container {
-  display: grid;
-  justify-content: space-between;
-  margin-top: 3.125rem;
-  grid-template-columns: repeat(auto-fit, minmax(19.375rem, 1fr));
-  gap: 0.625rem;
-  grid-auto-flow: dense;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 11px;
 }
-
+@media (max-width: 1150px) {
+  .menu-heading + .center {
+    justify-content: flex-start;
+  }  
+}
 /* Style for tablet screen and mobile screen max width 768px */
 @media (max-width: 768px) {
   .menu-heading {
     padding-inline: 0;
-    margin-top: 7.5rem;
+    margin-top: 120px;
   }
-  
+
   .button-menu-wrapper {
-    padding: 0.625rem;
-    margin: 0.3125rem;
+    padding: 10px;
+    margin: 5px;
   }
-  
+
+  .menu-tag + .between {
+    justify-content: center;
+  }
+
   .menu-button-label,
   input[type="checkbox"]:checked + .menu-button-label {
-    padding: 0.625rem 0.9375rem;
+    padding: 10px 15px;
   }
 
   .food-card-wrapper:nth-child(n+5) {
