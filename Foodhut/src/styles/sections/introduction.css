@@ -64,7 +64,7 @@
 .search-container {
   font-family: var(--font-family-primary);
   font-size: var(--font-size-normal);
-  width: 80%;
+  width: 77%;
   border: none;
 }
 
@@ -74,7 +74,6 @@
 
 .search-black-icon {
   padding: 15px 12px 15px 15px;
-  top: 50%;
 }
 
 .search-white-icon {
@@ -82,9 +81,7 @@
   border-radius: 50%;
   cursor: pointer;
   padding: 9px;
-  margin: 5px;
-  right: 0%;
-  top: 50%;
+  margin: 6px 9px 6px 0px;
   border: none;
 }
 
@@ -103,13 +100,9 @@
   background-color: var(--color-light);
 }
 
-.watch-video-container > p {
-  font-family: var(--font-family-search-box);
-  font-size: var(--font-size-normal);
-  color: var(--color-neutral);
-}
-
-.play-button, .watch-video-container > p {
+.watch-video-item {
+  font-family: var(--font-family-secondary);
+  color: var(--color-strong-neutral);
   display: inline-block;
   vertical-align: middle;
   cursor: pointer;
