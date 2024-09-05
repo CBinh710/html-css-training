@@ -45,7 +45,7 @@
   margin-top: 14.08px;
 }
 
-.company-information-item > a {
+.footer-link {
   font-size: var(--font-size-normal);
   color: var(--color-dark);
   text-decoration: none;
@@ -67,7 +67,7 @@
   font-size: var(--font-size-normal);
 }
 
-.subscribe-input > input[type="text"] {
+.subcribe-input {
   width: 183px; 
   height: 50.08px; 
   border-radius: 38.08px; 
@@ -76,7 +76,7 @@
   border: none;
 }
 
-.subscribe-input > input[type="text"]::placeholder {
+.subscribe-input::placeholder {
   font-size: var(--font-size-ex-small);
 }
 
@@ -89,7 +89,7 @@
   gap: 50.08px;
 }
 
-.subscribe-input > button {
+.subscribe-input-container > button {
   font-size: 14px;
   font-weight: var(--font-weight-medium);
   padding: 17px 27px;
