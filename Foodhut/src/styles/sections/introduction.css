@@ -64,7 +64,7 @@
 .search-container {
   font-family: var(--font-family-primary);
   font-size: var(--font-size-normal);
-  width: 77%;
+  width: 75%;
   border: none;
 }
 
@@ -122,7 +122,7 @@
   margin-top: 16px;
 }
 
-.search-icon {
+.search-icon-wrapper {
   width: 24px;
   height: 24px;
 }
