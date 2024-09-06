@@ -76,7 +76,7 @@
   background-image: url('../../assets/images/search-icon-black.svg');
   width: 24px;
   height: 24px;
-  margin: 15px;
+  margin: 15px auto;
 }
 
 .search-white-icon {
@@ -106,6 +106,7 @@
   box-shadow: 2px 2px 10px var(--color-icon-wrapper);
   border: none;
   background-color: var(--color-light);
+  cursor: pointer;
 }
 
 .watch-video-item {
