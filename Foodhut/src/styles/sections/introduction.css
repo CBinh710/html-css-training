@@ -73,9 +73,10 @@
 }
 
 .search-black-icon {
+  background-image: url('../../assets/images/search-icon-black.svg');
   width: 24px;
   height: 24px;
-  padding: 15px;
+  margin: 15px;
 }
 
 .search-white-icon {
@@ -88,6 +89,7 @@
 }
 
 .play-icon {
+  background-image: url('../../assets/images/play-button.svg');
   width: 15px;
   height: 15px;
 }
