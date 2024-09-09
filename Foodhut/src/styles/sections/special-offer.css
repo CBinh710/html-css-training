@@ -17,8 +17,9 @@
 .special-offer-content {
   font-size: var(--font-size-normal);
   text-align: center;
-  padding: 0 200px;
-  margin: 29px 0;
+  width: 58%;
+  margin-inline: auto;
+  margin-top: 33px;
   line-height: 1.3;
   opacity: 80%;
 }
@@ -33,6 +34,11 @@
   .special-offer-container {
     margin-top: 174px;
     margin-bottom: 120px;
+  }
+
+  .special-offer-content {
+    width: 100%;
+    margin: 43px 0;
   }
 
   .special-offer-content + .between {
