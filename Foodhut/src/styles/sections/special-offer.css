@@ -37,11 +37,6 @@
     margin-bottom: 120px;
   }
 
-  .special-offer-content {
-    width: 100%;
-    margin: 43px 0;
-  }
-
   .special-offer-content + .between {
     justify-content: center;
   }
