@@ -36,6 +36,11 @@
     margin-top: 174px;
     margin-bottom: 120px;
   }
+  
+  .special-offer-content {
+    margin: 43px 24px;
+    width: auto;
+  }
 
   .special-offer-content + .between {
     justify-content: center;
