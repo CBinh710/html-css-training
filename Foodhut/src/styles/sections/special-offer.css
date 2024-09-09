@@ -17,7 +17,7 @@
 .special-offer-content {
   font-size: var(--font-size-normal);
   text-align: center;
-  opacity: .8;
+  opacity: 0.8;
   margin-inline: auto;
   width: 65%;
   margin-top: 33px;
