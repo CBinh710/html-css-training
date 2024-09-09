@@ -38,8 +38,7 @@
     gap: 20px;
   }
 
-  .nav-item,
-  .button {
+  .nav-item {
     font-size: var(--font-size-small);
   }
 }
