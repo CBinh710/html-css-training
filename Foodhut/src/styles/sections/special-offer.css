@@ -37,8 +37,8 @@
   }
 
   .special-offer-content {
-    margin: 43px 24px;
-    width: auto;
+    width: 100%;
+    margin: 43px 0;
   }
 
   .special-offer-content + .between {
