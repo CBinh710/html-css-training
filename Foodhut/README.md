@@ -37,13 +37,13 @@
 2. Move to project branch
 
    ```bash
-   git checkout feature/create-responsive-website-for-mobile-screen 
+   git checkout origin/Practice-1
    ```
    
 3. Change directory:
 
     ```bash
-    cd html-css-training/Foodhut
+    cd html-css-training/practice-one
     ```
     
 4. Install node modules:
@@ -59,4 +59,3 @@
     ```bash
     npm run start
     ```
-
