@@ -26,10 +26,10 @@
 }
 
 .special-offer-food-card {
+  justify-content: space-between;
   gap: 11px;
   flex-wrap: wrap;
 }
-
 /* Style for tablet and mobile screen under 768px */
 @media (max-width: 768px) {
   .special-offer-container {
@@ -37,13 +37,13 @@
     margin-bottom: 120px;
   }
 
-  .special-offer-content + .between {
-    justify-content: center;
-  }
-
   .special-offer-content {
     padding: 0;
     margin: 43px 24px;
     width: auto;
+  }
+
+  .special-offer-food-card {
+    justify-content: center;
   }
 }

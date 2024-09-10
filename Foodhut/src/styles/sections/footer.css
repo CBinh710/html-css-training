@@ -3,6 +3,7 @@
 }
 
 .website-summary-container {
+  justify-content: space-between;
   gap: 50.08px;
   flex-wrap: wrap;
 }
@@ -27,6 +28,7 @@
 }
 
 .brief-icon-container {
+  justify-content: space-between;
   align-items: center;
   width: 100px;
 }
