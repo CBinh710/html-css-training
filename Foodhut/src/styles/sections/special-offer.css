@@ -26,6 +26,7 @@
 }
 
 .special-offer-food-card {
+  justify-content: space-between;
   gap: 11px;
   flex-wrap: wrap;
 }
@@ -37,7 +38,7 @@
     margin-bottom: 120px;
   }
 
-  .special-offer-content + .between {
+  .special-offer-food-card {
     justify-content: center;
   }
 
