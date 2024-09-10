@@ -44,6 +44,6 @@
   .special-offer-content {
     padding: 0;
     margin: 43px 24px;
-    width: 100%;
+    width: auto;
   }
 }
