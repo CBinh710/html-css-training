@@ -48,7 +48,8 @@
 .para-introduction {
   font-family: var(--font-family-primary);
   font-size: var(--font-size-large);
-  margin: 29px 0;
+  margin-top: 49px;
+  margin-bottom: 39px;
   font-weight: 400;
   max-width: 80%;
   line-height: 1.3;
@@ -137,7 +138,6 @@
   }
 
   .header-introduction {
-    font-size: var(--font-size-sub-header);
     max-width: 100%;
     text-align: center;
   }
@@ -145,7 +145,7 @@
   .para-introduction {
     font-size: var(--font-size-xnormal);
     font-weight: 400;
-    max-width: 100%;
+    max-width: 89%;
   }
 
   .search-box-container,
@@ -168,7 +168,6 @@
 @media (max-width: 428px) {
   .header-introduction {
     text-align: left;
-    max-width: 75%;
   }
 
   .search-box-container {

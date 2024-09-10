@@ -17,7 +17,7 @@
 .special-offer-content {
   font-size: var(--font-size-normal);
   text-align: center;
-  opacity: 0.8;
+  opacity: 80%;
   margin-inline: auto;
   width: 65%;
   margin-top: 33px;
@@ -33,7 +33,7 @@
 /* Style for tablet and mobile screen under 768px */
 @media (max-width: 768px) {
   .special-offer-container {
-    margin-top: 174px;
+    margin-top: 156px;
     margin-bottom: 120px;
   }
 
@@ -43,5 +43,7 @@
 
   .special-offer-content {
     padding: 0;
+    margin: 43px 24px;
+    width: 100%;
   }
 }
