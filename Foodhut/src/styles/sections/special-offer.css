@@ -17,11 +17,12 @@
 .special-offer-content {
   font-size: var(--font-size-normal);
   text-align: center;
-  width: 58%;
+  opacity: 80%;
   margin-inline: auto;
+  width: 65%;
   margin-top: 33px;
   line-height: 1.3;
-  opacity: 80%;
+  margin-bottom: 28px;
 }
 
 .special-offer-food-card {
@@ -32,13 +33,8 @@
 /* Style for tablet and mobile screen under 768px */
 @media (max-width: 768px) {
   .special-offer-container {
-    margin-top: 174px;
+    margin-top: 156px;
     margin-bottom: 120px;
-  }
-
-  .special-offer-content {
-    width: 100%;
-    margin: 43px 0;
   }
 
   .special-offer-content + .between {
@@ -47,5 +43,7 @@
 
   .special-offer-content {
     padding: 0;
+    margin: 43px 24px;
+    width: auto;
   }
 }
