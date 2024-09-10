@@ -1,15 +1,18 @@
 /* Style for desktop screen width = 1440px */
 .header-container {
+  justify-content: space-between;
   align-items: center;
 }
 
 .wrapper-navbar-container {
+  justify-content: space-between;
   gap: 88px;
   align-items: center;
   display: flex;
 }
 
 .navbar-container {
+  justify-content: space-between;
   gap: 50px;
   list-style-type: none;
 }

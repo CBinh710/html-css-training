@@ -17,14 +17,6 @@ img {
   display: flex;
 }
 
-.center {
-  justify-content: center;
-}
-
-.between {
-  justify-content: space-between;
-}
-
 .primary-color {
   color: var(--color-primary);
 }

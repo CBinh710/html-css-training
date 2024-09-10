@@ -33,6 +33,7 @@ input[type="checkbox"]:checked + .menu-button-label {
 }
 
 .menu-tag {
+  justify-content: center;
   gap: 30px;
   margin-top: 25px;
   overflow-x: scroll;
@@ -49,20 +50,24 @@ input[type="checkbox"]:checked + .menu-button-label {
 }
 
 .list-food-card-container {
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 50px;
   gap: 11px;
 }
-@media (max-width: 1150px) {
-  .menu-heading + .center {
+
+@media (max-width: 1080px){
+  .menu-tag {
     justify-content: flex-start;
-  }  
+  }
 }
 /* Style for tablet screen and mobile screen max width 768px */
 @media (max-width: 768px) {
   .menu-heading {
     padding-inline: 0;
     margin-top: 120px;
+    width: 380px;
+    margin-inline: auto;
   }
 
   .button-menu-wrapper {
@@ -70,13 +75,13 @@ input[type="checkbox"]:checked + .menu-button-label {
     margin: 5px;
   }
 
-  .menu-tag + .between {
-    justify-content: center;
-  }
-
   .menu-button-label,
   input[type="checkbox"]:checked + .menu-button-label {
     padding: 10px 15px;
+  }
+
+  .list-food-card-container {
+    justify-content: center;
   }
 
   .food-card-wrapper:nth-child(n+5) {
