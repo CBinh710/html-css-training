@@ -33,6 +33,7 @@ input[type="checkbox"]:checked + .menu-button-label {
 }
 
 .menu-tag {
+  justify-content: center;
   gap: 30px;
   margin-top: 25px;
   overflow-x: scroll;
@@ -49,12 +50,13 @@ input[type="checkbox"]:checked + .menu-button-label {
 }
 
 .list-food-card-container {
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 50px;
   gap: 11px;
 }
 @media (max-width: 1150px) {
-  .menu-heading + .center {
+  .menu-tag {
     justify-content: flex-start;
   }  
 }
@@ -70,7 +72,7 @@ input[type="checkbox"]:checked + .menu-button-label {
     margin: 5px;
   }
 
-  .menu-tag + .between {
+  .list-food-card-container {
     justify-content: center;
   }
 
